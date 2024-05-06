@@ -6,34 +6,29 @@ import Header from "./assets/Header";
 import Footer from "./assets/Footer";
 import FourButtons from "./assets/fourButtons";
 import {useState} from "react";
+import {useEffect} from "react";
 
 function App() {
-	const [toggleView, setToggleView] = useState(false);
-	const [compareView, setCopmareView] = useState(true);
+	const [compareView, setCopmareView] = useState("");
 
-	const toggleHandler = (data) => {
-		setToggleView(data);
-	};
 	const compareHandler = (data) => {
 		setCopmareView(data);
 	};
-
+	useEffect(() => {
+		window.history.scrollRestoration = "manual";
+	}, []);
 	return (
 		<>
 			<Header />
-			<FourButtons
-				onTransfer={toggleHandler}
-				transferCompare={compareHandler}
-			/>
+			<FourButtons transferCompare={compareHandler} />
 
-			{!compareView ? (
-				<CompareLayout />
-			) : !toggleView ? (
+			{compareView == "bank" ? (
 				<BankLayout />
-			) : (
+			) : compareView == "category" ? (
 				<CategoryLayout />
-			)}
-
+			) : compareView == "compare" ? (
+				<CompareLayout />
+			) : null}
 			<Footer />
 		</>
 	);

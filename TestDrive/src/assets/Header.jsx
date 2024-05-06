@@ -9,10 +9,6 @@ const Header = () => {
 
 	const [buttonSelected, setButtonSelected] = useState(1);
 	const [clickTrue, setClickTrue] = useState(false);
-	
-
-	
-
 
 	// const firstThreeObjects = topItemsJson.blogs.slice(0, 3);
 
@@ -46,53 +42,42 @@ const Header = () => {
 	}, [clickTrue]);
 	return (
 		<>
-			<h1 style={{textAlign: "center"}}>DIGITAL BUSINESS BANKING TEST DRIVE</h1>
-			<div className='featured-blog'>
-				<div className='button-container'>
-					<button
-						style={{backgroundColor: selectedColor1}}
-						onClick={() => {
-							setButtonSelected(1);
-							setClickTrue(true);
-						}}
-						className='blog-button'
-					></button>
-					<button
-						style={{backgroundColor: selectedColor2}}
-						onClick={() => {
-							setButtonSelected(2);
-							setClickTrue(true);
-						}}
-						className='blog-button'
-					></button>
-					<button
-						style={{backgroundColor: selectedColor3}}
-						onClick={() => {
-							setButtonSelected(3);
-							setClickTrue(true);
-						}}
-						className='blog-button'
-					></button>
-				</div>
+			<div className='button-container'>
+				<button
+					style={{backgroundColor: selectedColor1}}
+					onClick={() => {
+						setButtonSelected(1);
+						setClickTrue(true);
+					}}
+					className='blog-button'
+				></button>
+				<button
+					style={{backgroundColor: selectedColor2}}
+					onClick={() => {
+						setButtonSelected(2);
+						setClickTrue(true);
+					}}
+					className='blog-button'
+				></button>
+				<button
+					style={{backgroundColor: selectedColor3}}
+					onClick={() => {
+						setButtonSelected(3);
+						setClickTrue(true);
+					}}
+					className='blog-button'
+				></button>
+			</div>
 
+			<div className='featured-blog'>
 				{buttonSelected == 1 ? (
-					<TopThree
-						object={topItemsJson.new}
-						num={0}
-					/>
+					<TopThree object={topItemsJson.new} num={0} />
 				) : buttonSelected == 2 ? (
-					<TopThree
-						object={topItemsJson.new}
-						num={1}
-					/>
+					<TopThree object={topItemsJson.new} num={1} />
 				) : (
-					<TopThree
-						object={topItemsJson.new}
-						num={2}
-					/>
+					<TopThree object={topItemsJson.new} num={2} />
 				)}
 			</div>
-			
 		</>
 	);
 };

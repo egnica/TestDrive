@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.72 45.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #88bc40;
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M28.45,6.57c-7.3,0-13.3,6-13.3,13.3s5.9,13.3,13.3,13.3,13.3-5.9,13.3-13.3-6-13.3-13.3-13.3"/>
+  <path id="pyramid" class="cls-1" d="M0,45.78l17.33-23.4,10.55,23.4H0ZM17.97,21.62l8.69-11.86,4.42,36.03-13.12-24.17ZM33.79,0l6.61,8.88-6.61,36.91-6.56-36.94L33.79,0ZM36.66,45.79l4.31-36.08,8.78,11.83-13.09,24.25ZM39.92,45.79l10.39-23.47,17.4,23.47h-27.79Z"/>
+</svg>

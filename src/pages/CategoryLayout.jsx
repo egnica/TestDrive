@@ -38,17 +38,28 @@ function CategoryLayout() {
 			<div className='contain'>
 				<div className='category-contain'>
 					{CatagoryTitles[0].categorys.map((item, index) => {
+						{
+							/* let cataLogo = `../../images/category-icons/${item.name}.svg`; */
+						}
+						let cataLogo = `../../images/category-icons/Managing Paper.svg`;
 						return (
-							<div
-								onClick={() => {
-									setcatagoryName(item.name);
-									doubleClickCanel(item);
-								}}
-								className='category-btn hover-zoom'
-								key={index}
-							>
-								<img src='../../../images/download.png' />
-								<p>{item.name}</p>
+							<div className='' key={index}>
+								<div
+									className='hover-zoom'
+									style={{
+										display: "flex;",
+										margin: "15px",
+										borderRadius: "10px",
+									}}
+									onClick={() => {
+										setcatagoryName(item.name);
+										doubleClickCanel(item);
+									}}
+								>
+									<img src={cataLogo} />
+
+									<p>{item.name}</p>
+								</div>
 							</div>
 						);
 					})}

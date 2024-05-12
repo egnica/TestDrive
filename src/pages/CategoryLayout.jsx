@@ -47,6 +47,7 @@ function CategoryLayout() {
 								className='category-btn hover-zoom'
 								key={index}
 							>
+								<img src='../../../images/download.png' />
 								<p>{item.name}</p>
 							</div>
 						);

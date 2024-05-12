@@ -28,7 +28,7 @@ const FourButtons = (props) => {
 					</a>
 				</div>
 				<div className='four-button-border'>
-					<h2>Category View</h2>
+					<h2>Category&nbsp;View</h2>
 					<p>
 						About Catagory view. Lorem ipsum dolor sit amet, consectetur
 						adipiscing elit. Integer sit amet consequat velit.
@@ -44,7 +44,7 @@ const FourButtons = (props) => {
 					</a>
 				</div>
 				<div className='four-button-border'>
-					<h2>Compare Banks</h2>
+					<h2>Compare&nbsp;Banks</h2>
 					<p>
 						About Compare Banks. Lorem ipsum dolor sit amet, consectetur
 						adipiscing elit. Integer sit amet consequat velit.
@@ -61,7 +61,7 @@ const FourButtons = (props) => {
 				</div>
 
 				<div className='four-button-border'>
-					<h2>Download Road</h2>
+					<h2>Download&nbsp;Road</h2>
 					<p>
 						About Road Map. Lorem ipsum dolor sit amet, consectetur adipiscing
 						elit. Integer sit amet consequat velit.

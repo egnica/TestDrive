@@ -27,6 +27,22 @@ export const CompareLayout = () => {
 		}
 	};
 
+	const percentOfPoints = (bank) => {
+		let score = 0;
+		const catagoryKey = keyObject[0].categorys;
+		let keyScore = 0;
+
+		bank.forEach((item) => {
+			score += item.score;
+		});
+		catagoryKey.forEach((item) => {
+			keyScore += item.score;
+		});
+		let percentScore = Math.round((score / keyScore) * 100);
+
+		return percentScore;
+	};
+
 	return (
 		<>
 			<form className='bank-input-boxes-cont' onSubmit={bankOnchangeHandler}>
@@ -50,25 +66,30 @@ export const CompareLayout = () => {
 					<div className='display-cont'>
 						<div className='category-col'>
 							<h3>CATEGORY</h3>
+							<p>
+								<strong>Percent of Total Score</strong>
+							</p>
 							{categorys.map((item, index) => {
 								return <p key={index}>{item.name}</p>;
 							})}
 						</div>
 
-						<>
-							{bankSelectiosObjects.map((item, index) => {
-								return (
-									<div className='bank-col' key={index}>
-										<h3>{item.bank_name}</h3>
-										{item.categorys.map((catag, ind) => (
+						{bankSelectiosObjects.map((item, index) => {
+							return (
+								<div className='bank-col' key={index}>
+									<h3>{item.bank_name}</h3>
+
+									<p>{percentOfPoints(item.categorys)}%</p>
+									{item.categorys.map((catag, ind) => (
+										<>
 											<p style={scoreComp(catag.score, ind)} key={ind}>
 												{catag.score}
 											</p>
-										))}
-									</div>
-								);
-							})}
-						</>
+										</>
+									))}
+								</div>
+							);
+						})}
 					</div>
 				)
 			)}

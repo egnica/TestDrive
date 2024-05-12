@@ -14,7 +14,6 @@ function CategoryLayout() {
 	const [featuresKey, setFeaturesKey] = useState("");
 
 	const doubleClickCanel = (item) => {
-		console.log(item.name);
 		catagoryName == item.name && setcatagoryName("");
 		catagoryName == item.name && setBank("");
 		bankName == item && setBank("");
@@ -57,10 +56,7 @@ function CategoryLayout() {
 				<div className='contain2 table-width'>
 					<div style={{display: "block", width: "120%"}}>
 						<h2 className='cat-h2'>{catagoryName}</h2>
-						<div
-							style={{margin: "25px"}}
-							className='info-contain'
-						>
+						<div style={{margin: "25px"}} className='info-contain'>
 							{catagoryName != "" && (
 								<div className='catagory-score-contain title table-width'>
 									<p>Banks</p>
@@ -71,6 +67,28 @@ function CategoryLayout() {
 								bankObject.map((bank, index) => {
 									return (
 										<>
+											{bank.categorys.map((item, index) => {
+												return (
+													catagoryName == item.name &&
+													item.winner && (
+														<div
+															style={{float: "right", width: "0px"}}
+															key={index}
+														>
+															<div className='test1'>
+																<img
+																	style={{marginLeft: "40px"}}
+																	className='winner-img'
+																	src='../../images/winner.png'
+																/>
+																<div className='best-feature-text'>
+																	{item.winner}
+																</div>
+															</div>
+														</div>
+													)
+												);
+											})}
 											<div
 												className='catagory-score-contain table-width hover'
 												onClick={() => {
@@ -85,12 +103,11 @@ function CategoryLayout() {
 												{bank.categorys.map((test, index) => {
 													return (
 														catagoryName == test.name && (
-															<p
-																key={index}
-																className='points'
-															>
-																{test.score}
-															</p>
+															<>
+																<p key={index} className='points'>
+																	{test.score}
+																</p>
+															</>
 														)
 													);
 												})}
@@ -100,10 +117,7 @@ function CategoryLayout() {
 												features.map((item, num) => {
 													return (
 														<>
-															<div
-																key={num}
-																className='feature table-width'
-															>
+															<div key={num} className='feature table-width'>
 																{item.video != "" ? (
 																	<button
 																		onClick={() => setVideoUrl(item.video)}

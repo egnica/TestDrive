@@ -16,7 +16,7 @@ function CategoryLayout() {
 	const [styleChange, setStyleChange] = useState([]);
 
 	console.log(selected);
-	const doubleClickCanel = (item, ind) => {
+	const doubleClickCanel = (item) => {
 		catagoryName == item.name && setcatagoryName("");
 		catagoryName == item.name && setBank("");
 		bankName == item && setBank("");
@@ -64,6 +64,8 @@ function CategoryLayout() {
 										style={selectedSec(index)}
 										className='contain-two hover-zoom'
 										onClick={() => {
+											document.querySelector(".info-contain").style.animation =
+												"fadeIn 1s";
 											setcatagoryName(item.name);
 											doubleClickCanel(item);
 											setSelected({setInd: index, number: 0});
@@ -78,10 +80,23 @@ function CategoryLayout() {
 						);
 					})}
 				</div>
-
 				<div className='contain2 table-width'>
 					<div style={{display: "block", width: "120%"}}>
-						<h2 className='cat-h2'>{catagoryName}</h2>
+						<div style={{display: "flex"}}>
+							<h2 className='cat-h2'>{catagoryName} </h2>
+
+							{catagoryName != "" && (
+								<>
+									<img
+										style={{padding: "20px 0 0 20px"}}
+										height={"40px"}
+										width={"40px"}
+										src='../../images/winner.png'
+									/>
+									<p style={{padding: "15px 0 0 5px"}}> = Category winner</p>
+								</>
+							)}
+						</div>
 						<div style={{margin: "25px"}} className='info-contain'>
 							{catagoryName != "" && (
 								<div className='catagory-score-contain title table-width'>

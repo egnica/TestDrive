@@ -60,7 +60,22 @@ function BankLayout() {
 
 			<div className='contain'>
 				<div className='info-contain'>
-					<h2>{bank}</h2>
+					<div style={{display: "flex"}}>
+						<h2>{bank}</h2>
+
+						{bank != "" && (
+							<>
+								<img
+									style={{padding: "15px 0 0 20px"}}
+									height={"40px"}
+									width={"40px"}
+									src='../../images/winner.png'
+								/>
+								<p style={{padding: "7px 0 0 5px"}}> = Category winner</p>
+							</>
+						)}
+					</div>
+
 					{bank !== "" && (
 						<div className='catagory-score-contain title'>
 							<p>Catagory</p>

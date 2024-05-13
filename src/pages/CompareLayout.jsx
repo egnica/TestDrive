@@ -12,6 +12,7 @@ export const CompareLayout = () => {
 	const bankOnchangeHandler = (event) => {
 		event.preventDefault();
 		bankSelectiosObjects != [] && setBankSelectiosObjects([]);
+
 		for (let x = 0; x < event.target.length; x++) {
 			if (event.target[x].checked == true) {
 				setBankSelectiosObjects((prevList) => {
@@ -43,6 +44,10 @@ export const CompareLayout = () => {
 		return percentScore;
 	};
 
+	const fadeClick = () => {
+		document.querySelector(".display-cont").style.animation = "fadeIn 1s";
+	};
+
 	return (
 		<>
 			<form className='bank-input-boxes-cont' onSubmit={bankOnchangeHandler}>
@@ -61,7 +66,7 @@ export const CompareLayout = () => {
 						</div>
 					);
 				})}
-				<button>Enter</button>
+				<button onClick={fadeClick}>Submit</button>
 			</form>
 			<hr />
 

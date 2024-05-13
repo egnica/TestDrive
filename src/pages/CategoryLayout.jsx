@@ -47,7 +47,7 @@ function CategoryLayout() {
 	return (
 		<>
 			<div id='setScreen2'></div>
-			<h1 className='cat-h1'>Catagories</h1>
+			<h1 className='cat-h1'>Categories</h1>
 
 			<div className='contain'>
 				<div className='category-contain'>

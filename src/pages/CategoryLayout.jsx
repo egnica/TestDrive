@@ -12,8 +12,10 @@ function CategoryLayout() {
 	const [features, setFeatures] = useState([]);
 	const [videoUrl, setVideoUrl] = useState("");
 	const [featuresKey, setFeaturesKey] = useState("");
+	const [selected, setSelected] = useState([{setInd: null, number: 0}]);
 
-	const doubleClickCanel = (item) => {
+	console.log(selected);
+	const doubleClickCanel = (item, ind) => {
 		catagoryName == item.name && setcatagoryName("");
 		catagoryName == item.name && setBank("");
 		bankName == item && setBank("");
@@ -31,8 +33,15 @@ function CategoryLayout() {
 		});
 	};
 
+	const selectedSec = (ind) => {
+		if (ind == selected.setInd && selected.number == 0) {
+			return {backgroundColor: "#5dc0f9", color: "white"};
+		}
+	};
+
 	return (
 		<>
+			<div id='setScreen2'></div>
 			<h1 className='cat-h1'>Catagories</h1>
 
 			<div className='contain'>
@@ -43,18 +52,24 @@ function CategoryLayout() {
 						}
 						let cataLogo = `../../images/category-icons/Managing Paper.svg`;
 						return (
-							<div
-								key={index}
-								className='contain-two hover-zoom'
-								onClick={() => {
-									setcatagoryName(item.name);
-									doubleClickCanel(item);
-								}}
-							>
-								<img src={cataLogo} />
+							<>
+								<a href='#setScreen2'>
+									<div
+										key={index}
+										style={selectedSec(index)}
+										className='contain-two hover-zoom'
+										onClick={() => {
+											setcatagoryName(item.name);
+											doubleClickCanel(item);
+											setSelected({setInd: index, number: 0});
+										}}
+									>
+										<img src={cataLogo} />
 
-								<p>{item.name}</p>
-							</div>
+										<p>{item.name}</p>
+									</div>
+								</a>
+							</>
 						);
 					})}
 				</div>

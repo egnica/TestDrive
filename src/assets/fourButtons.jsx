@@ -33,7 +33,7 @@ const FourButtons = (props) => {
 						About Catagory view. Lorem ipsum dolor sit amet, consectetur
 						adipiscing elit. Integer sit amet consequat velit.
 					</p>
-					<a href='#setScreen'>
+					<a href='#setScreen2'>
 						<div
 							onClick={() => setViewCompare("category")}
 							className='four-button'
@@ -49,7 +49,7 @@ const FourButtons = (props) => {
 						About Compare Banks. Lorem ipsum dolor sit amet, consectetur
 						adipiscing elit. Integer sit amet consequat velit.
 					</p>
-					<a href='#setScreen'>
+					<a href='#setScreen3'>
 						<div
 							onClick={() => setViewCompare("compare")}
 							className='four-button'

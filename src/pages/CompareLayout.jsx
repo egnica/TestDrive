@@ -46,7 +46,9 @@ export const CompareLayout = () => {
 	return (
 		<>
 			<form className='bank-input-boxes-cont' onSubmit={bankOnchangeHandler}>
+				<div id='setScreen3'></div>
 				<h2>SELECT UP TO 6 BANKS</h2>
+
 				{bankObject.map((item, index) => {
 					return (
 						<div key={index}>

@@ -31,6 +31,7 @@ form button {
 	border: #ffffff;
 	transition: ease-in 0.2s;
 	cursor: pointer;
+	border-radius: 15px;
 }
 form button:hover {
 	transform: scale(1.05);

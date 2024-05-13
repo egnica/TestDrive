@@ -17,14 +17,15 @@
 	border: 2px solid rgb(184, 184, 184);
 	border-radius: 15px;
 }
-.contain-two img {
-	height: 20%;
-	width: 20%;
-}
+
 .contain-two p {
 	margin: 0 10px;
 	display: grid;
 	place-content: center;
+}
+.contain-two:active {
+	background-color: rgb(123, 123, 252);
+	color: aliceblue;
 }
 .hover:hover {
 	background-color: #5dc0f9;

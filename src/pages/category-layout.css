@@ -10,12 +10,18 @@
 	margin-left: 20px;
 	border-right: 1px solid grey;
 }
-
-.category-contain img {
-	height: 30%;
-	border-radius: 20px;
+.contain-two {
+	display: flex;
+	margin: 15px;
+	padding: 10px;
+	border: 2px solid rgb(184, 184, 184);
+	border-radius: 15px;
 }
-.category-contain p {
+.contain-two img {
+	height: 20%;
+	width: 20%;
+}
+.contain-two p {
 	margin: 0 10px;
 	display: grid;
 	place-content: center;

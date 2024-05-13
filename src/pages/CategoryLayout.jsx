@@ -43,23 +43,17 @@ function CategoryLayout() {
 						}
 						let cataLogo = `../../images/category-icons/Managing Paper.svg`;
 						return (
-							<div className='' key={index}>
-								<div
-									className='hover-zoom'
-									style={{
-										display: "flex;",
-										margin: "15px",
-										borderRadius: "10px",
-									}}
-									onClick={() => {
-										setcatagoryName(item.name);
-										doubleClickCanel(item);
-									}}
-								>
-									<img src={cataLogo} />
+							<div
+								key={index}
+								className='contain-two hover-zoom'
+								onClick={() => {
+									setcatagoryName(item.name);
+									doubleClickCanel(item);
+								}}
+							>
+								<img src={cataLogo} />
 
-									<p>{item.name}</p>
-								</div>
+								<p>{item.name}</p>
 							</div>
 						);
 					})}

@@ -120,6 +120,11 @@ a {
 
 	box-shadow: 5px 5px 10px grey;
 }
+.four-button:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
+}
 
 /** BANK VIEW   **/
 
@@ -160,6 +165,12 @@ a {
 	height: 40px;
 	padding: 10px;
 }
+
+.bank-item:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
+}
 .bank-icon {
 	/* border: 2px solid rgb(62, 62, 62);
 	border-radius: 3px; */
@@ -180,6 +191,11 @@ a {
 	transform: scale(1.05);
 
 	box-shadow: 5px 5px 10px grey;
+}
+.hover-zoom:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
 }
 /* CATAGORY CONTAINER  */
 .title {
@@ -245,11 +261,20 @@ a {
 	cursor: pointer;
 	border-radius: 4px;
 	width: 80px;
+	transform: scale(1.05);
+	border: #004770;
 }
 .video-button:hover {
 	background-color: #5dc0f9;
 	color: #0a1178;
+	box-shadow: 5px 5px 10px grey;
 }
+.video-button:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
+}
+
 .filler {
 	width: 80px;
 	margin: 10px;

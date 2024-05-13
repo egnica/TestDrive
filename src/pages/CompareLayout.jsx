@@ -50,8 +50,12 @@ export const CompareLayout = () => {
 				{bankObject.map((item, index) => {
 					return (
 						<div key={index}>
-							<input type='checkbox' value={item.bank_name} />
-							<span>{item.bank_name}</span>
+							<input
+								className='check-box'
+								type='checkbox'
+								value={item.bank_name}
+							/>
+							<span className=''>{item.bank_name}</span>
 						</div>
 					);
 				})}

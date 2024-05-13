@@ -1,6 +1,7 @@
 /* SELECTION FORM      */
 form {
-	background-color: lightgray;
+	background-color: rgb(240, 240, 240);
+	border-radius: 20px;
 	padding: 20px 100px;
 	margin: 50px;
 	display: grid;
@@ -11,11 +12,34 @@ form h2 {
 	grid-column: 1 / span 3;
 	text-align: center;
 }
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+}
+
 form button {
+	background-color: #ffffff;
 	text-align: center;
 	margin: 0 260px;
 	grid-column: 1 / span 3;
 	padding: 10px;
+	border: #ffffff;
+	transition: ease-in 0.2s;
+	cursor: pointer;
+}
+form button:hover {
+	transform: scale(1.05);
+	box-shadow: 5px 5px 10px grey;
+}
+form button:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
 }
 form input[type="checkbox"] {
 	width: 20px;

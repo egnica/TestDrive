@@ -13,6 +13,7 @@ function CategoryLayout() {
 	const [videoUrl, setVideoUrl] = useState("");
 	const [featuresKey, setFeaturesKey] = useState("");
 	const [selected, setSelected] = useState([{setInd: null, number: 0}]);
+	const [styleChange, setStyleChange] = useState([]);
 
 	console.log(selected);
 	const doubleClickCanel = (item, ind) => {
@@ -37,6 +38,10 @@ function CategoryLayout() {
 		if (ind == selected.setInd && selected.number == 0) {
 			return {backgroundColor: "#5dc0f9", color: "white"};
 		}
+	};
+
+	const revealHandler = (index) => {
+		styleChange == "" ? setStyleChange(["block", index]) : setStyleChange([]);
 	};
 
 	return (
@@ -93,6 +98,7 @@ function CategoryLayout() {
 													catagoryName == item.name &&
 													item.winner && (
 														<div
+															onClick={() => revealHandler(index)}
 															style={{float: "right", width: "0px"}}
 															key={index}
 														>
@@ -102,7 +108,13 @@ function CategoryLayout() {
 																	className='winner-img'
 																	src='../../images/winner.png'
 																/>
-																<div className='best-feature-text'>
+																<div
+																	style={{
+																		display:
+																			styleChange[1] == index && styleChange[0],
+																	}}
+																	className='best-feature-text'
+																>
 																	{item.winner}
 																</div>
 															</div>

@@ -25,7 +25,7 @@ function BankLayout() {
 	const revealHandler = (index) => {
 		styleChange == "" ? setStyleChange(["block", index]) : setStyleChange([]);
 	};
-	console.log(styleChange);
+
 	return (
 		<>
 			<div id='setScreen'></div>

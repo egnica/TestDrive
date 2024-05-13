@@ -2376,7 +2376,7 @@
                         {
                             "name": "Additional security such as an authentication code or challenge question at login",
                             "points": 69,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/chase/CH2_additional_security.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/2_Security/chase/CH2_additional_security.mp4"
                         },
                         {
                             "name": "Ability to personalize your username or change your password",
@@ -2386,12 +2386,12 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
                             "points": 82,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/chase/CH2_email_phone_alerts.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/2_Security/chase/CH2_email_phone_alerts.mp4"
                         },
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/chase/CH2_email_phone_alerts.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/2_Security/chase/CH2_email_phone_alerts.mp4"
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -2458,7 +2458,7 @@
                         {
                             "name": "Ability to view online documents other than banking statements (i.e., branch or ATM receipts or account notices)",
                             "points": 56,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/3_Managing_Paper/chase/CH3_view_online_documents.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/3_Managing_Paper/chase/CH3_view_online_documents.mp4"
                         }
                     ]
                 },
@@ -2470,7 +2470,7 @@
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
                             "points": 45,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/4_Additional_Users/chase/CH4_limit_accounts.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/4_Additional_Users/chase/CH4_limit_accounts.mp4"
                         },
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -2521,7 +2521,7 @@
                         {
                             "name": "Personalized insights/recommendations to optimize cash flow",
                             "points": 24,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/5_Cash_Flow/chase/CH5_personalized_insights.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/5_Cash_Flow/chase/CH5_personalized_insights.mp4"
                         },
                         {
                             "name": "Ability to view at least one month of future account balance and cash flow forecasts",
@@ -2536,7 +2536,7 @@
                         {
                             "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
                             "points": 43,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/5_Cash_Flow/chase/CH5_manage_thirdparty_apps.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_videos_2024/5_Cash_Flow/chase/CH5_manage_thirdparty_apps.mp4"
                         }
                     ]
                 },

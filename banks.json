@@ -1320,27 +1320,27 @@
                         },
                         {
                             "name": "Ability to set up a savings goal with automatic savings contributions",
-                            "point": "-",
+                            "points": "-",
                             "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_set_savings_goal.mp4"
                         },
                         {
                             "name": "Personalized insights/recommendations to optimize cash flow",
-                            "point": 24,
+                            "points": 24,
                             "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_personalized_insights.mp4"
                         },
                         {
                             "name": "Ability to view at least one month of future account balance and cash flow forecasts",
-                            "point": 26,
+                            "points": 26,
                             "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_view_one_month_future_balance_cash_flow_forecasts.mp4"
                         },
                         {
                             "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
-                            "point": 40,
+                            "points": 40,
                             "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_link_view_manage_third-party.mp4"
                         },
                         {
                             "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
-                            "point": 43,
+                            "points": 43,
                             "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_link_view_manage_third-party.mp4"
                         }
                     ]

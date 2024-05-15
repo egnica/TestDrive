@@ -34,7 +34,7 @@ function BankLayout() {
 
 			<div id='bank-nav' className='bank-contain'>
 				{bankObject.map((item, index) => {
-					let bankLogo = `../../images/svg-bank-logo/${item.short_name}.svg`;
+					let bankLogo = `./images/svg-bank-logo/${item.short_name}.svg`;
 					return (
 						<>
 							<div className='outer_bank_shell'>
@@ -71,7 +71,7 @@ function BankLayout() {
 									style={{padding: "15px 0 0 20px"}}
 									height={"40px"}
 									width={"40px"}
-									src='../../images/winner.png'
+									src='./images/winner.png'
 								/>
 								<p style={{padding: "11px 0 0 5px", fontSize: "14px"}}>
 									= indicates category winner
@@ -99,10 +99,7 @@ function BankLayout() {
 								>
 									{item.winner ? (
 										<div className='test1'>
-											<img
-												className='winner-img'
-												src='../../images/winner.png'
-											/>
+											<img className='winner-img' src='./images/winner.png' />
 											<div
 												style={{
 													display: styleChange[1] == index && styleChange[0],
@@ -146,10 +143,7 @@ function BankLayout() {
 
 													{keyObject[0].categorys[index].features[num].points ==
 													feat.points ? (
-														<img
-															className='check'
-															src='../../../../images/check.png'
-														/>
+														<img className='check' src='./images/check.png' />
 													) : (
 														<div className='no-check'></div>
 													)}

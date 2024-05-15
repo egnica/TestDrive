@@ -1797,7 +1797,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
                             "points": 82,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/cap/CH2_email_phone_alerts.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_email_phone_alerts.mp4"
                         },
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -1827,7 +1827,7 @@
                         {
                             "name": "Ability to view and manage the authorized signers for the business checking account",
                             "points": 56,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/cap/CH2_authorized_signers.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_authorized_signers.mp4"
                         }
                     ]
                 },
@@ -1961,7 +1961,7 @@
                         {
                             "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
                             "points": 58,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/6_Making_Payments_Transfers/cap/CH6_standard_ACH.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_standard_ACH.mp4"
                         },
                         {
                             "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -2006,7 +2006,7 @@
                         {
                             "name": "Ability to initiate recurring transfers",
                             "points": 59,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/6_Making_Payments_Transfers/cap/CH6_recurring_transfers.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_recurring_transfers.mp4"
                         },
                         {
                             "name": "Ability to transfer funds between your accounts at different banks",
@@ -2161,7 +2161,7 @@
                         {
                             "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
                             "points": 57,
-                            "video": "https://www.barlowresearch.com/testdrive_2024/M3_Security/cap/MCH3_alerts_transactions.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/cap/MCH3_alerts_transactions.mp4"
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices via mobile phone",

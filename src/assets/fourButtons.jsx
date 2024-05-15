@@ -22,8 +22,11 @@ const FourButtons = (props) => {
 					</p>
 					<a href='#setScreen'>
 						<div onClick={() => setViewCompare("bank")} className='four-button'>
-							<img src='../../../images/rotate.png' />
-							Banks
+							<img
+								width={"40%"}
+								height={"auto"}
+								src='./images/Change_View.svg'
+							/>
 						</div>
 					</a>
 				</div>
@@ -38,8 +41,11 @@ const FourButtons = (props) => {
 							onClick={() => setViewCompare("category")}
 							className='four-button'
 						>
-							<img src='../../../images/rotate.png' />
-							Categories
+							<img
+								width={"40%"}
+								height={"auto"}
+								src='./images/Change_View.svg'
+							/>
 						</div>
 					</a>
 				</div>
@@ -54,8 +60,11 @@ const FourButtons = (props) => {
 							onClick={() => setViewCompare("compare")}
 							className='four-button'
 						>
-							<img src='../../../images/compare-banks.png' />
-							Compare Banks
+							<img
+								width={"40%"}
+								height={"auto"}
+								src='./images/Compare_Banks.svg'
+							/>
 						</div>
 					</a>
 				</div>
@@ -67,8 +76,11 @@ const FourButtons = (props) => {
 						elit. Integer sit amet consequat velit.
 					</p>
 					<div className='four-button'>
-						<img src='../../../images/download.png' />
-						Download
+						<img
+							width={"40%"}
+							height={"auto"}
+							src='./images/Download_Icon.svg'
+						/>
 					</div>
 				</div>
 			</div>

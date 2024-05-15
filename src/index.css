@@ -56,6 +56,25 @@ a {
 	justify-content: "safe";
 }
 
+.download-btn {
+	font-size: small;
+	background-color: #0178bd;
+	padding: 10px;
+	color: aliceblue;
+	margin: auto;
+	border-radius: 10px;
+}
+.download-btn:hover {
+	transform: scale(1.05);
+
+	box-shadow: 5px 5px 10px grey;
+}
+.download-btn:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
+}
+
 .section button {
 	text-align: center;
 }

@@ -7,6 +7,7 @@ function BankLayout() {
 	const [bankObject] = useState(banksData.bank_layout);
 	const [keyObject] = useState(banksData.key_Data);
 	const [catagory, setCatagory] = useState([]);
+	const [zipFile, setZipFile] = useState("");
 	const [keyCategory, setKeyCategory] = useState("");
 	const [videoUrl, setVideoUrl] = useState("");
 	const [styleChange, setStyleChange] = useState([]);
@@ -46,6 +47,7 @@ function BankLayout() {
 											"fadeIn 1s";
 										setBank(item.bank_name);
 										setCatagory(item.categorys);
+										setZipFile(item.asset_zip);
 										doubleClickBank(item.bank_name);
 										setVideoUrl("");
 									}}
@@ -71,7 +73,12 @@ function BankLayout() {
 									width={"40px"}
 									src='../../images/winner.png'
 								/>
-								<p style={{padding: "7px 0 0 5px"}}> = Category winner</p>
+								<p style={{padding: "11px 0 0 5px", fontSize: "14px"}}>
+									= indicates category winner
+								</p>
+								<a href={zipFile} className='download-btn'>
+									Download Screenshots
+								</a>
 							</>
 						)}
 					</div>

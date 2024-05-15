@@ -53,9 +53,9 @@ function CategoryLayout() {
 				<div className='category-contain'>
 					{CatagoryTitles[0].categorys.map((item, index) => {
 						{
-							/* let cataLogo = `../../images/category-icons/${item.name}.svg`; */
+							/* let cataLogo = `../../images/category-icons/${item.icon-image}.svg`; */
 						}
-						let cataLogo = `../../images/category-icons/Managing Paper.svg`;
+						let cataLogo = `${item.icon}`;
 						return (
 							<>
 								<a href='#setScreen2'>
@@ -71,7 +71,7 @@ function CategoryLayout() {
 											setSelected({setInd: index, number: 0});
 										}}
 									>
-										<img src={cataLogo} />
+										<img width={"25%"} height={"auto"} src={cataLogo} />
 
 										<p>{item.name}</p>
 									</div>
@@ -93,7 +93,9 @@ function CategoryLayout() {
 										width={"40px"}
 										src='../../images/winner.png'
 									/>
-									<p style={{padding: "15px 0 0 5px"}}> = Category winner</p>
+									<p style={{padding: "18px 0 0 5px", fontSize: "14px"}}>
+										= indicates category winner
+									</p>
 								</>
 							)}
 						</div>

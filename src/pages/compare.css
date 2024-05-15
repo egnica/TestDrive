@@ -1,12 +1,28 @@
 /* SELECTION FORM      */
 form {
-	background-color: rgb(240, 240, 240);
+	background-color: #7ecefd5c;
+
 	border-radius: 20px;
 	padding: 20px 100px;
-	margin: 50px;
+	margin: auto;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 10px;
+}
+.submit-form-btn {
+	width: 250px;
+}
+.submit-form-btn:hover {
+	transform: scale(1.05);
+	box-shadow: 5px 5px 10px grey;
+}
+.submit-form-btn:active {
+	top: 2px;
+	left: 1px;
+	box-shadow: none;
+}
+#key {
+	padding-left: 40%;
 }
 form h2 {
 	grid-column: 1 / span 3;

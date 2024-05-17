@@ -85,7 +85,7 @@ function BankLayout() {
 
 					{bank !== "" && (
 						<div className='catagory-score-contain title'>
-							<p>Catagory</p>
+							<p>Categorys</p>
 							<p className='points'>Score</p>
 						</div>
 					)}

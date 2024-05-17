@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import {useEffect, useState} from "react";
 
 import "./category-layout.css";
 import "../App.css";
@@ -9,20 +9,30 @@ function CategoryLayout() {
 	const [bankObject] = useState(banksData.bank_layout);
 	const [catagoryName, setcatagoryName] = useState("");
 	const [bankName, setBank] = useState("");
-	const [cateIndex, setCateIndex] = useState("");
-	const [videoUrl, setVideoUrl] = useState("");
 	const [features, setFeatures] = useState([]);
-	const [featuresKey, setFeaturesKey] = useState([]);
+	const [videoUrl, setVideoUrl] = useState("");
+	const [featuresKey, setFeaturesKey] = useState("");
 	const [selected, setSelected] = useState([{setInd: null, number: 0}]);
 	const [styleChange, setStyleChange] = useState([]);
 
 	const doubleClickCanel = (item) => {
-		if (catagoryName == item.name) {
-			setcatagoryName("");
-			setBank("");
-			setFeatures([]);
-			setBank("");
-		}
+		catagoryName == item.name && setcatagoryName("");
+		catagoryName == item.name && setBank("");
+		bankName == item && setBank("");
+		bankName == item && setVideoUrl("");
+	};
+
+	useEffect(() => {}, [catagoryName]);
+
+	const setObject = (item) => {
+		item.categorys.forEach((item) => {
+			item.name == catagoryName && setFeatures(item.features);
+		});
+	};
+	const FeaturesKeyHandler = () => {
+		CatagoryTitles.forEach((item, index) => {
+			item.categorys == setFeaturesKey(item.categorys[index].features);
+		});
 	};
 
 	const selectedSec = (ind) => {
@@ -35,39 +45,6 @@ function CategoryLayout() {
 		styleChange == "" ? setStyleChange(["block", index]) : setStyleChange([]);
 	};
 
-	const selectFeatures = (bankName) => {
-		bankObject.forEach((item) => {
-			if (item.bank_name == bankName) {
-				item.categorys.forEach((elem) => {
-					if (catagoryName == elem.name) {
-						setFeatures(elem.features);
-					}
-				});
-			}
-		});
-	};
-	const FeaturesKeyHandler = () => {
-		CatagoryTitles.forEach((item) => {
-			item.categorys.forEach((elem) => {
-				if (elem.name == catagoryName) {
-					setFeaturesKey(elem.features);
-				}
-			});
-		});
-	};
-
-	const cateClickClear = (bank, ind) => {
-		if (bank == bankName && ind == cateIndex) {
-			setFeatures([]);
-			setBank("");
-		}
-	};
-	useEffect(() => {
-		selectFeatures(bankName);
-		FeaturesKeyHandler();
-		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [catagoryName]);
-
 	return (
 		<>
 			<div id='setScreen2'></div>
@@ -76,11 +53,15 @@ function CategoryLayout() {
 			<div className='contain'>
 				<div className='category-contain'>
 					{CatagoryTitles[0].categorys.map((item, index) => {
+						{
+							/* let cataLogo = `../../images/category-icons/${item.icon-image}.svg`; */
+						}
 						let cataLogo = `${item.icon}`;
 						return (
-							<div key={index}>
+							<>
 								<a href='#setScreen2'>
 									<div
+										key={index}
 										style={selectedSec(index)}
 										className='contain-two hover-zoom'
 										onClick={() => {
@@ -96,7 +77,7 @@ function CategoryLayout() {
 										<p>{item.name}</p>
 									</div>
 								</a>
-							</div>
+							</>
 						);
 					})}
 				</div>
@@ -159,19 +140,17 @@ function CategoryLayout() {
 													)
 												);
 											})}
-
 											<div
 												className='catagory-score-contain table-width hover'
-												key={index}
 												onClick={() => {
-													selectFeatures(bank.bank_name);
-													FeaturesKeyHandler();
-													setCateIndex(index);
 													setBank(bank.bank_name);
-													cateClickClear(bank.bank_name, index);
+													setObject(bank);
+													FeaturesKeyHandler();
+													doubleClickCanel(bank.bank_name);
 												}}
+												key={index}
 											>
-												<p className='cata'> {bank.bank_name}</p>
+												<p className='cata'>test {bank.bank_name}</p>
 												{bank.categorys.map((test, index) => {
 													return (
 														catagoryName == test.name && (
@@ -185,61 +164,71 @@ function CategoryLayout() {
 												})}
 											</div>
 
-											{features.map((feat, numInd) => {
-												return (
-													<div key={numInd}>
-														{cateIndex == index && (
-															<>
-																<div className='feature table-width'>
-																	{feat.video != "" ? (
-																		<button
-																			onClick={() => setVideoUrl(feat.video)}
-																			className='video-button'
-																		>
-																			Watch Video
-																		</button>
-																	) : (
-																		<div className='filler'></div>
-																	)}
-
-																	<p className='feat-name'>{feat.name}</p>
-
-																	{featuresKey[numInd].points == feat.points ? (
-																		<img
-																			className='check'
-																			src='./images/check.png'
-																		/>
-																	) : (
-																		<div className='no-check'></div>
-																	)}
-
-																	<p className='feat-score'>{feat.points}</p>
-																</div>
-																{videoUrl != "" && feat.video == videoUrl && (
-																	<>
-																		<div className='video-contain'>
-																			<button
-																				onClick={() => {
-																					setVideoUrl("");
-																				}}
-																				className='video-button cancel-button'
-																			>
-																				X
-																			</button>
-																			<video
-																				autoPlay
-																				controls
-																				src={videoUrl}
-																				type='video/mp4'
-																			></video>
-																		</div>
-																	</>
+											{bankName == bank.bank_name &&
+												features.map((item, num) => {
+													return (
+														<>
+															<div key={num} className='feature table-width'>
+																{item.video != "" ? (
+																	<button
+																		onClick={() => setVideoUrl(item.video)}
+																		className='video-button'
+																	>
+																		Watch Video
+																	</button>
+																) : (
+																	<div className='filler'></div>
 																)}
-															</>
-														)}
-													</div>
-												);
-											})}
+																<p className='feat-name'>{item.name}</p>
+
+																{featuresKey[num].points == item.points ? (
+																	<img
+																		className='check'
+																		src='./images/check.png'
+																	/>
+																) : (
+																	<div className='no-check'></div>
+																)}
+																{console.log(
+																	`Key:${num} ${featuresKey[num].name}: ${featuresKey[num].points} \n Cycle: ${item.name}: ${item.points}`
+																)}
+																{/* {CatagoryTitles[0].categorys[index].features[
+																	num
+																].points == item.points ? (
+																	<img
+																		className='check'
+																		src='../../../../images/check.png'
+																	/>
+																) : (
+																	<div className='no-check'></div>
+																)} */}
+
+																<p className='feat-score'>{item.points}</p>
+															</div>
+
+															{videoUrl != "" && item.video == videoUrl && (
+																<>
+																	<div className='video-contain'>
+																		<button
+																			onClick={() => {
+																				setVideoUrl("");
+																			}}
+																			className='video-button cancel-button'
+																		>
+																			X
+																		</button>
+																		<video
+																			autoPlay
+																			controls
+																			src={videoUrl}
+																			type='video/mp4'
+																		></video>
+																	</div>
+																</>
+															)}
+														</>
+													);
+												})}
 										</>
 									);
 								})}

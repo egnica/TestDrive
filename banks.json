@@ -5,7 +5,6 @@
                 {
                     "name": "Enrolling/Applying",
                     "score": 288,
-                    "icon": "images/category-icons/Enrolling_and_Applying.svg",
                     "features": [
                         {
                             "name": "Business checking and savings account pricing and detailed fee information",
@@ -40,7 +39,6 @@
                 {
                     "name": "Security and Profile Management",
                     "score": 677,
-                    "icon": "images/category-icons/Security_Management.svg",
                     "features": [
                         {
                             "name": "Login screen located on the front page of the bank's website",
@@ -87,7 +85,6 @@
                 {
                     "name": "Managing Paper",
                     "score": 460,
-                    "icon": "images/category-icons/Managing_Paper.svg",
                     "features": [
                         {
                             "name": "Ability to view an image of the front and back of a check",
@@ -122,7 +119,6 @@
                 {
                     "name": "Additional Users",
                     "score": 131,
-                    "icon": "images/category-icons/Additional_Users.svg",
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
@@ -141,7 +137,6 @@
                 {
                     "name": "Cash Flow Management",
                     "score": 438,
-                    "icon": "images/category-icons/Cash_flow.svg",
                     "features": [
                         {
                             "name": "Ability to view at least 90 days of account history in detail",
@@ -188,7 +183,6 @@
                 {
                     "name": "Making Payments and Transfers",
                     "score": 775,
-                    "icon": "images/category-icons/Payments_Transfers.svg",
                     "features": [
                         {
                             "name": "Ability to initiate an online bill payment",
@@ -247,7 +241,6 @@
                 {
                     "name": "Receiving Payments",
                     "score": 168,
-                    "icon": "images/category-icons/Receiving_Payments.svg",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle (using an email address, mobile number or QR code)",
@@ -270,7 +263,6 @@
                 {
                     "name": "Customer Service",
                     "score": 358,
-                    "icon": "images/category-icons/Customer_service.svg",
                     "features": [
                         {
                             "name": "Telephone support for service-related inquiries",
@@ -305,7 +297,6 @@
                 {
                     "name": "Mobile: Enrolling/Applying",
                     "score": 90,
-                    "icon": "images/category-icons/Enrolling_and_Applying.svg",
                     "features": [
                         {
                             "name": "Ability to open your business checking and savings account(s) via mobile phone",
@@ -328,7 +319,6 @@
                 {
                     "name": "Mobile: Managing Paper",
                     "score": 123,
-                    "icon": "images/category-icons/Managing_Paper.svg",
                     "features": [
                         {
                             "name": "Ability to view check images via mobile phone",
@@ -347,7 +337,6 @@
                 {
                     "name": "Mobile: Security and Profile Management",
                     "score": 360,
-                    "icon": "images/category-icons/Security_Management.svg",
                     "features": [
                         {
                             "name": "Ability to log into mobile banking using fingerprint or facial/voice recognition, etc.",
@@ -386,7 +375,6 @@
                 {
                     "name": "Mobile: Cash Flow Management",
                     "score": 65,
-                    "icon": "images/category-icons/Cash_flow.svg",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -409,7 +397,6 @@
                 {
                     "name": "Mobile: Making Payments and Transfers",
                     "score": 266,
-                    "icon": "images/category-icons/Payments_Transfers.svg",
                     "features": [
                         {
                             "name": "Ability to initiate an online bill payment via mobile phone",
@@ -444,7 +431,6 @@
                 {
                     "name": "Mobile: Receiving Payments",
                     "score": 122,
-                    "icon": "images/category-icons/Receiving_Payments.svg",
                     "features": [
                         {
                             "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
@@ -463,7 +449,6 @@
                 {
                     "name": "Mobile: Card Management",
                     "score": 263,
-                    "icon": "images/category-icons/Card_Management.svg",
                     "features": [
                         {
                             "name": "Ability to initiate an ATM withdrawl via mobile banking before arriving at the ATM",
@@ -498,7 +483,6 @@
                 {
                     "name": "Mobile: Customer Service",
                     "score": 97,
-                    "icon": "images/category-icons/Customer_service.svg",
                     "features": [
                         {
                             "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
@@ -664,7 +648,7 @@
                 },
                 {
                     "name": "Additional Users",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
@@ -812,7 +796,7 @@
                 },
                 {
                     "name": "Receiving Payments",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
@@ -1029,12 +1013,12 @@
                         {
                             "name": "Ability to transfer funds between accounts via mobile phone ",
                             "points": 53,
-                            "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_transfer_funds.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
                             "points": 42,
-                            "video": ""
+                            "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/amex/MCH5_transfer_funds.mp4"
                         }
                     ]
                 },
@@ -1102,7 +1086,7 @@
                 },
                 {
                     "name": "Mobile: Customer Service",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
@@ -1197,7 +1181,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/bofa/CH2_set_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -1341,7 +1325,7 @@
                         {
                             "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
                             "points": 43,
-                            "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/bofa/CH5_link_view_manage_third-party.mp4"
+                            "video": ""
                         }
                     ]
                 },
@@ -1797,7 +1781,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of logins or security threats",
                             "points": 82,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_email_phone_alerts.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/cap/CH2_email_phone_alerts.mp4"
                         },
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
@@ -1827,7 +1811,7 @@
                         {
                             "name": "Ability to view and manage the authorized signers for the business checking account",
                             "points": 56,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/cap/CH2_authorized_signers.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_2024/2_Security/cap/CH2_authorized_signers.mp4"
                         }
                     ]
                 },
@@ -1874,7 +1858,7 @@
                 },
                 {
                     "name": "Additional Users",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
@@ -1961,7 +1945,7 @@
                         {
                             "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
                             "points": 58,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_standard_ACH.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_2024/6_Making_Payments_Transfers/cap/CH6_standard_ACH.mp4"
                         },
                         {
                             "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -2006,7 +1990,7 @@
                         {
                             "name": "Ability to initiate recurring transfers",
                             "points": 59,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/cap/CH6_recurring_transfers.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_2024/6_Making_Payments_Transfers/cap/CH6_recurring_transfers.mp4"
                         },
                         {
                             "name": "Ability to transfer funds between your accounts at different banks",
@@ -2022,7 +2006,7 @@
                 },
                 {
                     "name": "Receiving Payments",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
@@ -2161,7 +2145,7 @@
                         {
                             "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
                             "points": 57,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/cap/MCH3_alerts_transactions.mp4"
+                            "video": "https://www.barlowresearch.com/testdrive_2024/M3_Security/cap/MCH3_alerts_transactions.mp4"
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -2182,7 +2166,7 @@
                 },
                 {
                     "name": "Mobile: Cash Flow Management",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -2407,7 +2391,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "https://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/chase/CH2_email_phone_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -2791,7 +2775,7 @@
                 },
                 {
                     "name": "Mobile: Cash Flow Management",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -3016,7 +3000,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/hunt/CH2_set_email_phone_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -3040,7 +3024,7 @@
                         },
                         {
                             "name": "Ability to view and manage the authorized signers for the business checking account",
-                            "points": 56,
+                            "points": "-",
                             "video": ""
                         }
                     ]
@@ -3236,7 +3220,7 @@
                 },
                 {
                     "name": "Receiving Payments",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
@@ -3401,7 +3385,7 @@
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
                             "points": 17,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/hunt/MCH4_group_analyze_category.mp4"
                         },
                         {
                             "name": "Ability to create and manage an operating expense budget via mobile phone",
@@ -3620,7 +3604,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/key/CH2_email_phone_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -3855,7 +3839,7 @@
                         {
                             "name": "Ability to accept payments electronically for invoices sent through online banking",
                             "points": 48,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/key/CH7_accept_card_payments.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/7_Receiving_Payments/key/CH7_accept_payments_electronically.mp4"
                         },
                         {
                             "name": "Ability to accept credit or debit card payments directly via online banking dashboard",
@@ -4000,7 +3984,7 @@
                 },
                 {
                     "name": "Mobile: Cash Flow Management",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -4056,12 +4040,12 @@
                         {
                             "name": "Ability to transfer funds between accounts via mobile phone",
                             "points": 53,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/key/MCH5_transfer_funds.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to transfer funds between your accounts at different banks via mobile phone",
                             "points": 42,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M5_Making_Payments/key/MCH5_transfer_funds.mp4"
                         }
                     ]
                 },
@@ -4296,7 +4280,7 @@
                 },
                 {
                     "name": "Additional Users",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
@@ -4342,7 +4326,7 @@
                         {
                             "name": "Ability to create and manage a budget",
                             "points": 27,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_budget.mp4"
                         },
                         {
                             "name": "Ability to set up a savings goal with automatic savings contributions",
@@ -4362,12 +4346,12 @@
                         {
                             "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
                             "points": 40,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_link_third_party_apps.mp4"
                         },
                         {
                             "name": "Ability to view and manage the connection of third-party applications that your company has linked to your bank account(s)",
                             "points": 43,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/nor/CH5_manage_connection.mp4"
                         }
                     ]
                 },
@@ -4444,7 +4428,7 @@
                 },
                 {
                     "name": "Receiving Payments",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
@@ -4551,7 +4535,7 @@
                         },
                         {
                             "name": "Ability to view account documents other than banking statements (i.e., branch or ATM receipts or account notices) via mobile phone",
-                            "points": "-",
+                            "points":"-",
                             "video": ""
                         }
                     ]
@@ -4828,7 +4812,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/pnc/ch2_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -4910,7 +4894,7 @@
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
                             "points": 41,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/pnc/CH4_authorized_user.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to require approval for specific transactions initiated by authorized users",
@@ -5084,12 +5068,12 @@
                         {
                             "name": "Access to an automated chat bot or digital assistant for general information",
                             "points": 29,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/pnc/CH8_chat_bot.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Access to customer support via live chat that connects you to a human representative",
                             "points": 72,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/pnc/CH8_chat_bot.mp4"
                         },
                         {
                             "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
@@ -5115,7 +5099,7 @@
                 },
                 {
                     "name": "Mobile: Enrolling/Applying",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to open your business checking and savings account(s) via mobile phone",
@@ -5432,7 +5416,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/reg/CH2_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -5514,7 +5498,7 @@
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
                             "points": 41,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/reg/CH4_authorized_users.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to require approval for specific transactions initiated by authorized users",
@@ -5688,12 +5672,12 @@
                         {
                             "name": "Access to an automated chat bot or digital assistant for general information",
                             "points": 29,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/reg/CH8_chat_bot.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Access to customer support via live chat that connects you to a human representative",
                             "points": 72,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/reg/CH8_chat_bot.mp4"
                         },
                         {
                             "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
@@ -5719,7 +5703,7 @@
                 },
                 {
                     "name": "Mobile: Enrolling/Applying",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to open your business checking and savings account(s) via mobile phone",
@@ -5951,12 +5935,12 @@
                         {
                             "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
                             "points": 21,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/reg/MCH8_chat_bot.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Access to on-demand live chat support with a human representative via mobile phone",
                             "points": 43,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/reg/MCH8_chat_bot.mp4"
                         }
                     ]
                 }
@@ -6113,7 +6097,7 @@
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
                             "points": 45,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/reg/CH4_authorized_users.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
@@ -6416,7 +6400,7 @@
                 },
                 {
                     "name": "Mobile: Cash Flow Management",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -6555,7 +6539,7 @@
                         {
                             "name": "Access to an automated chat bot or digital assistant for information via mobile phone",
                             "points": 21,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/squ/MCH8_chat_bot_on_demand.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Access to on-demand live chat support with a human representative via mobile phone",
@@ -6722,12 +6706,12 @@
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
                             "points": 41,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tdb/CH4_authorized_users.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to require approval for specific transactions initiated by authorized users",
                             "points": 45,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tdb/CH4_authorized_users.mp4"
+                            "video": ""
                         }
                     ]
                 },
@@ -6999,7 +6983,7 @@
                         {
                             "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
                             "points": 57,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tdb/MCH3_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -7020,7 +7004,7 @@
                 },
                 {
                     "name": "Mobile: Cash Flow Management",
-                    "score": 0,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -7245,7 +7229,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/tru/CH2_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -7327,7 +7311,7 @@
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
                             "points": 41,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/tru/CH4_authorized_users.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to require approval for specific transactions initiated by authorized users",
@@ -7606,7 +7590,7 @@
                         {
                             "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
                             "points": 57,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/tru/MCH3_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -7853,7 +7837,7 @@
                         {
                             "name": "Ability to set up email or phone alerts to notify you of financial transactions",
                             "points": 76,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/2_Security/usb/CH2_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices",
@@ -7935,7 +7919,7 @@
                         {
                             "name": "Ability to set dollar limits on transaction amounts for authorized users",
                             "points": 41,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/4_Additional_Users/usb/CH4_authorized_users.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to require approval for specific transactions initiated by authorized users",
@@ -7981,7 +7965,7 @@
                         {
                             "name": "Personalized insights/recommendations to optimize cash flow",
                             "points": 24,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/usb/CH5_track_spend_personalized_insights.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view at least one month of future account balance and cash flow forecasts",
@@ -8110,32 +8094,32 @@
                         {
                             "name": "Access to an automated chat bot or digital assistant for general information",
                             "points": 29,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/CH8_chat_bot.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_chat_bot.mp4"
                         },
                         {
                             "name": "Access to customer support via live chat that connects you to a human representative",
                             "points": 72,
-                            "video": "http://192.168.28.3/barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/CH8_live_chat.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_live_chat.mp4"
                         },
                         {
                             "name": "Ability to schedule an appointment to meet with a banker or specialist at a branch",
                             "points": 61,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/CH8_schedule_appointment.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_schedule_appointment.mp4"
                         },
                         {
                             "name": "Ability to schedule a call from a customer support representative for assistance",
                             "points": 65,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/CH8_schedule_call.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_schedule_call.mp4"
                         },
                         {
                             "name": "Ability to communicate with my bank via video conferencing (i.e., Zoom or WebEx)",
                             "points": 25,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/CH8_video_conferencing.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_video_conferencing.mp4"
                         },
                         {
                             "name": "Ability to screen-share with my bank via co-browse for assistance",
                             "points": 26,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M8_Customer_Service/usb/CH8_screen_share.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/8_Customer_Service/usb/CH8_screen_share.mp4"
                         }
                     ]
                 },
@@ -8213,7 +8197,7 @@
                         {
                             "name": "Ability to set up alerts to notify you of financial transactions via mobile phone",
                             "points": 57,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M3_Security/usb/MCH3_alerts.mp4"
+                            "video": ""
                         },
                         {
                             "name": "Ability to view login history and/or manage remembered devices via mobile phone",
@@ -8619,7 +8603,7 @@
                         {
                             "name": "Ability to initiate a standard ACH payment delivered within one or two business days",
                             "points": 58,
-                            "video": ""
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/6_Making_Payments_Transfers/wel/CH6_standard_ACH.mp4"
                         },
                         {
                             "name": "Ability to initiate a real-time ACH payment delivered within moments (excluding Zelle)",
@@ -8845,7 +8829,7 @@
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
                             "points": 17,
-                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/usb/MCH4_group_analyze_spending.mp4"
+                            "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/M4_Cash_Flow/wel/MCH4_group_analyze_spending.mp4"
                         },
                         {
                             "name": "Ability to create and manage an operating expense budget via mobile phone",

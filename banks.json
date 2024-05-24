@@ -5,6 +5,7 @@
                 {
                     "name": "Enrolling/Applying",
                     "score": 288,
+                    "icon": "./images/category-icons/Enrolling_and_Applying.svg",
                     "features": [
                         {
                             "name": "Business checking and savings account pricing and detailed fee information",
@@ -39,6 +40,7 @@
                 {
                     "name": "Security and Profile Management",
                     "score": 677,
+                    "icon": "./images/category-icons/Security_Management.svg",
                     "features": [
                         {
                             "name": "Login screen located on the front page of the bank's website",
@@ -85,6 +87,7 @@
                 {
                     "name": "Managing Paper",
                     "score": 460,
+                    "icon": "./images/category-icons/Managing_Paper.svg",
                     "features": [
                         {
                             "name": "Ability to view an image of the front and back of a check",
@@ -119,6 +122,7 @@
                 {
                     "name": "Additional Users",
                     "score": 131,
+                    "icon": "./images/category-icons/Additional_Users.svg",
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
@@ -137,6 +141,7 @@
                 {
                     "name": "Cash Flow Management",
                     "score": 438,
+                    "icon": "./images/category-icons/Cash_flow.svg",
                     "features": [
                         {
                             "name": "Ability to view at least 90 days of account history in detail",
@@ -183,6 +188,7 @@
                 {
                     "name": "Making Payments and Transfers",
                     "score": 775,
+                    "icon": "./images/category-icons/Payments_Transfers.svg",
                     "features": [
                         {
                             "name": "Ability to initiate an online bill payment",
@@ -241,6 +247,7 @@
                 {
                     "name": "Receiving Payments",
                     "score": 168,
+                    "icon": "./images/category-icons/Receiving_Payments.svg",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle (using an email address, mobile number or QR code)",
@@ -263,6 +270,7 @@
                 {
                     "name": "Customer Service",
                     "score": 358,
+                    "icon": "./images/category-icons/Customer_service.svg",
                     "features": [
                         {
                             "name": "Telephone support for service-related inquiries",
@@ -297,6 +305,7 @@
                 {
                     "name": "Mobile: Enrolling/Applying",
                     "score": 90,
+                    "icon": "./images/category-icons/Enrolling_and_Applying.svg",
                     "features": [
                         {
                             "name": "Ability to open your business checking and savings account(s) via mobile phone",
@@ -319,6 +328,7 @@
                 {
                     "name": "Mobile: Managing Paper",
                     "score": 123,
+                    "icon": "./images/category-icons/Managing_Paper.svg",
                     "features": [
                         {
                             "name": "Ability to view check images via mobile phone",
@@ -337,6 +347,7 @@
                 {
                     "name": "Mobile: Security and Profile Management",
                     "score": 360,
+                    "icon": "./images/category-icons/Security_Management.svg",
                     "features": [
                         {
                             "name": "Ability to log into mobile banking using fingerprint or facial/voice recognition, etc.",
@@ -375,6 +386,7 @@
                 {
                     "name": "Mobile: Cash Flow Management",
                     "score": 65,
+                    "icon": "./images/category-icons/Cash_flow.svg",
                     "features": [
                         {
                             "name": "Ability to automatically group and analyze spending by category via mobile phone",
@@ -397,6 +409,7 @@
                 {
                     "name": "Mobile: Making Payments and Transfers",
                     "score": 266,
+                    "icon": "./images/category-icons/Payments_Transfers.svg",
                     "features": [
                         {
                             "name": "Ability to initiate an online bill payment via mobile phone",
@@ -431,6 +444,7 @@
                 {
                     "name": "Mobile: Receiving Payments",
                     "score": 122,
+                    "icon": "./images/category-icons/Receiving_Payments.svg",
                     "features": [
                         {
                             "name": "Ability to request money with Zelle via mobile phone (using an email address, mobile number or QR code)",
@@ -449,6 +463,7 @@
                 {
                     "name": "Mobile: Card Management",
                     "score": 263,
+                    "icon": "./images/category-icons/Card_Management.svg",
                     "features": [
                         {
                             "name": "Ability to initiate an ATM withdrawl via mobile banking before arriving at the ATM",
@@ -483,6 +498,7 @@
                 {
                     "name": "Mobile: Customer Service",
                     "score": 97,
+                    "icon": "./images/category-icons/Customer_service.svg",
                     "features": [
                         {
                             "name": "Ability to schedule an appointment to meet with a banker at a branch via mobile phone",
@@ -4535,7 +4551,7 @@
                         },
                         {
                             "name": "Ability to view account documents other than banking statements (i.e., branch or ATM receipts or account notices) via mobile phone",
-                            "points":"-",
+                            "points": "-",
                             "video": ""
                         }
                     ]

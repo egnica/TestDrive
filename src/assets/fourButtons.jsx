@@ -17,15 +17,15 @@ const FourButtons = (props) => {
 				<div className='four-button-border'>
 					<h2>Bank View</h2>
 					<p>
-						About bank view. Lorem ipsum dolor sit amet, consectetur adipiscing
-						elit. Integer sit amet consequat velit.
+						View Test Drive features and results by category for a specific
+						bank.
 					</p>
 					<a href='#setScreen'>
 						<div onClick={() => setViewCompare("bank")} className='four-button'>
 							<img
-								width={"40%"}
+								width={"100px"}
 								height={"auto"}
-								src='./images/Change_View.svg'
+								src='./images/Bank_View.svg'
 							/>
 						</div>
 					</a>
@@ -33,8 +33,8 @@ const FourButtons = (props) => {
 				<div className='four-button-border'>
 					<h2>Category&nbsp;View</h2>
 					<p>
-						About Catagory view. Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit. Integer sit amet consequat velit.
+						View Test Drive features and results by bank for a specific feature
+						category.
 					</p>
 					<a href='#setScreen2'>
 						<div
@@ -42,9 +42,9 @@ const FourButtons = (props) => {
 							className='four-button'
 						>
 							<img
-								width={"40%"}
+								width={"100px"}
 								height={"auto"}
-								src='./images/Change_View.svg'
+								src='./images/Category_View.svg'
 							/>
 						</div>
 					</a>
@@ -52,8 +52,7 @@ const FourButtons = (props) => {
 				<div className='four-button-border'>
 					<h2>Compare&nbsp;Banks</h2>
 					<p>
-						About Compare Banks. Lorem ipsum dolor sit amet, consectetur
-						adipiscing elit. Integer sit amet consequat velit.
+						View a summary of results by category across multiple banks at once.
 					</p>
 					<a href='#setScreen3'>
 						<div
@@ -61,7 +60,7 @@ const FourButtons = (props) => {
 							className='four-button'
 						>
 							<img
-								width={"40%"}
+								width={"100px"}
 								height={"auto"}
 								src='./images/Compare_Banks.svg'
 							/>
@@ -70,14 +69,15 @@ const FourButtons = (props) => {
 				</div>
 
 				<div className='four-button-border'>
-					<h2>Download&nbsp;Road</h2>
+					<h2>Download Road Map</h2>
 					<p>
-						About Road Map. Lorem ipsum dolor sit amet, consectetur adipiscing
-						elit. Integer sit amet consequat velit.
+						View a detailed summary of results by bank and by category in one
+						layout by downloading the Test Drive Road Map.
 					</p>
 					<div className='four-button'>
 						<img
-							width={"40%"}
+							style={{paddingTop: "10px"}}
+							width={"60px"}
 							height={"auto"}
 							src='./images/Download_Icon.svg'
 						/>

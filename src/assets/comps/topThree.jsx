@@ -18,9 +18,15 @@ const TopThree = (props) => {
 
 				<div className='section2'>
 					<h2>{props.object[props.num].description}</h2>
-					<div className='section2-btn'>
-						{props.object[props.num].link_title}
-					</div>
+					<a
+						href={props.object[props.num].link}
+						target='_blank'
+						rel='noreferrer'
+					>
+						<div className='section2-btn'>
+							{props.object[props.num].link_title}
+						</div>
+					</a>
 				</div>
 			</div>
 		</>

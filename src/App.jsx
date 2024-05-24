@@ -42,8 +42,12 @@ function App() {
 					banking feature, or a specific bank&apos;s digital platform? Barlow
 					offers this level of access via Live Test Drive sessions, available
 					exclusively to Digital Business Banking program. <br /> <br /> Reach
-					out to Julianna Kolb at jkolb@barlowresearch.com to learn more about
-					Live Test Drive sessions and schedule a session for your team.
+					out to Julianna Kolb at{" "}
+					<a href='mailto:jkolb@barlowresearch.com'>
+						jkolb@barlowresearch.com
+					</a>{" "}
+					to learn more about Live Test Drive sessions and schedule a session
+					for your team.
 				</p>
 			</div>
 			<div className='questions'>

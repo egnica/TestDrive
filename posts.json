@@ -2,27 +2,27 @@
     "new": [
         {
             "id": "3",
-            "title": "Welcome to the Test Drive",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet consequat velit. Nulla laoreet volutpat justo ut efficitur.",
+            "title": "Truist Insights",
+            "description": "With Truist Insights, business customers can see snapshots of their cashflow, like spending trends, important events and flagged unusual activity, on both desktop and mobile platforms.",
             "link_title": "Click Here!",
-            "link": "https://www.barlowresearch.com/mybarlow/viewpodcast.php?item=14090",
-            "image": "https://www.barlowresearch.com/imgs/test-1.jpg"
+            "link": "./banner/3.Truist/Mobile_insights.mp4",
+            "image": "./banner/3.Truist/Mobile_insights.jpg"
         },
         {
             "id": "2",
-            "title": "  Chase New RTP Feature On Mobile",
-            "description": "Text about the feature. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet consequat velit. Nulla laoreet volutpat justo ut efficitur.",
-            "link_title": "Click Here!",
-            "link": "https://www.barlowresearch.com/mybarlow/viewpodcast.php?item=14090",
-            "image": "https://www.barlowresearch.com/imgs/test-2.jpg"
+            "title": "NorthOne’s Insights and Integrations",
+            "description": "NorthOne’s Insights and Integrations connects with platforms like Shopify and Amazon. Users can link accounts to receive payments and view cash flow snapshots from e-commerce platforms such as Amazon, Etsy, PayPal, Shopify, Stripe, and Square. This update includes a new logo and redesign.",
+            "link_title": "Watch Here!",
+            "link": "./banner/2.NorthOne/Insights_Integrations.mp4",
+            "image": "./banner/2.NorthOne/Insights_Integrations.jpg"
         },
         {
             "id": "1",
-            "title": "Regions Zelle Tool",
-            "description": "Text diferent difernt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet consequat velit. Nulla laoreet volutpat justo ut efficitur.",
-            "link_title": "Click Here!",
-            "link": "https://www.barlowresearch.com/mybarlow/viewpodcast.php?item=14090",
-            "image": "https://www.barlowresearch.com/imgs/test-3.jpg"
+            "title": "TD Bank tap-to-pay",
+            "description": "This spring came with a big update to TD Bank’s mobile app. TD Bank users can now accept credit card payments in-person via mobile through new Tap-to-Pay functionality. Chase and TD are currently the only Test Drive institutions offering this feature.",
+            "link_title": "Read Here!",
+            "link": "https://www.barlowresearch.com/mybarlow/viewanalystsjournal.php?item=14187",
+            "image": "./banner/1.TD/tap-pay.jpg"
         }
     ]
 }

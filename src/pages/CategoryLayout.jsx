@@ -72,6 +72,10 @@ function CategoryLayout() {
 		<>
 			<div id='setScreen2'></div>
 			<h1 className='cat-h1'>Categories</h1>
+			<p style={{paddingLeft: "3%"}}>
+				Select one of the categories below to see how each bank scored in regard
+				to that topic
+			</p>
 
 			<div className='contain'>
 				<div className='category-contain'>

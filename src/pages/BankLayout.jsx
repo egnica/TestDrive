@@ -31,6 +31,10 @@ function BankLayout() {
 		<>
 			<div id='setScreen'></div>
 			<h1 style={{textAlign: "center"}}>Banks</h1>
+			<p style={{textAlign: "center"}}>
+				Select one of the logos below to see how that institution scored this
+				year
+			</p>
 
 			<div id='bank-nav' className='bank-contain'>
 				{bankObject.map((item, index) => {

@@ -99,6 +99,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	height: 250px;
+	min-width: 1050px;
 }
 .four-button-border {
 	display: grid;

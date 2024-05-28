@@ -80,8 +80,8 @@ function BankLayout() {
 								<p style={{padding: "11px 0 0 5px", fontSize: "14px"}}>
 									= indicates category winner
 								</p>
-								<a href={zipFile} className='download-btn'>
-									Download Screenshots
+								<a style={{padding: "20px"}} href={zipFile}>
+									<div className='download-btn'>Download Screenshots</div>
 								</a>
 							</>
 						)}

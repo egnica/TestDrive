@@ -522,7 +522,7 @@
             "short_name": "amex",
             "bank_name": "American Express",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/AmericanExpress.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/AmericanExpress.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -1127,7 +1127,7 @@
             "short_name": "boa",
             "bank_name": "Bank of America",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/BankofAmerica.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/BankofAmerica.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -1732,7 +1732,7 @@
             "short_name": "cap",
             "bank_name": "Capital One",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/CapitalOne.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/CapitalOne.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -2336,7 +2336,7 @@
             "short_name": "chase",
             "bank_name": "Chase",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/Chase.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Chase.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -2946,7 +2946,7 @@
             "short_name": "hunt",
             "bank_name": "Huntington",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/Huntington.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Huntington.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -3550,7 +3550,7 @@
             "short_name": "key",
             "bank_name": "KeyBank",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/KeyBank.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/KeyBank.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -4154,7 +4154,7 @@
             "short_name": "nor",
             "bank_name": "NorthOne",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/NorthOne.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/NorthOne.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -4758,7 +4758,7 @@
             "short_name": "pnc",
             "bank_name": "PNC",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/PNC.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/PNC.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -5362,7 +5362,7 @@
             "short_name": "reg",
             "bank_name": "Regions",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/Regions.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Regions.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -5966,7 +5966,7 @@
             "short_name": "squ",
             "bank_name": "Square",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/Square.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Square.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -6570,7 +6570,7 @@
             "short_name": "tdb",
             "bank_name": "TD Bank",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/TDBank.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/TDBank.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -7175,7 +7175,7 @@
             "short_name": "tru",
             "bank_name": "Truist",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/Truist.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Truist.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -7783,7 +7783,7 @@
             "short_name": "usb",
             "bank_name": "U.S. Bank",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/USBank.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/USBank.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
@@ -8389,7 +8389,7 @@
             "short_name": "wel",
             "bank_name": "Wells Fargo",
             "logo": "",
-            "asset_zip": "http://www.barlowresearch.com/testdrive_assets_2024/zips/WellsFargo.zip",
+            "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/WellsFargo.zip",
             "categorys": [
                 {
                     "name": "Enrolling/Applying",

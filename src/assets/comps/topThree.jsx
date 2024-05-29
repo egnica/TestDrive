@@ -11,7 +11,7 @@ const TopThree = (props) => {
 				<div className='h1-td'>
 					<h1>DIGITAL BUSINESS BANKING TEST DRIVE</h1>
 					<a href='https://www.barlowresearch.com/mybarlow/index.php'>
-						<img src='../../../images/White-Logo.png' />
+						<img src='./images/White-Logo.png' />
 					</a>
 				</div>
 

@@ -2340,7 +2340,7 @@
             "categorys": [
                 {
                     "name": "Enrolling/Applying",
-                    "score": 228,
+                    "score": 255,
                     "features": [
                         {
                             "name": "Business checking and savings account pricing and detailed fee information",
@@ -2374,7 +2374,7 @@
                         },
                         {
                             "name": "Ability to enroll online for credit/debit card processing (point-of-sale, online, mobile, etc.)",
-                            "points": "-",
+                            "points": 27,
                             "video": ""
                         }
                     ]

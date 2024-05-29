@@ -95,6 +95,11 @@ function CategoryLayout() {
 											setSelected({setInd: index, number: 0});
 										}}
 									>
+										<img
+											width={"10%"}
+											height={"auto"}
+											src='../../images/plus.svg'
+										/>
 										<img width={"25%"} height={"auto"} src={cataLogo} />
 
 										<p>{item.name}</p>

@@ -22,13 +22,13 @@ const Header = () => {
 	useEffect(() => {
 		const timer = setInterval(() => {
 			setButtonSelected(2);
-		}, 5000);
+		}, 10000);
 		const timer2 = setInterval(() => {
 			setButtonSelected(3);
-		}, 10000);
+		}, 20000);
 		const timer3 = setInterval(() => {
 			setButtonSelected(1);
-		}, 15000);
+		}, 30000);
 		if (clickTrue) {
 			clearInterval(timer);
 			clearInterval(timer2);

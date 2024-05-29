@@ -34,12 +34,16 @@ export const CompareLayout = () => {
 		let keyScore = 0;
 
 		bank.forEach((item) => {
-			score += item.score;
+			if (item.score == "-") {
+				score += 0;
+			} else {
+				score += item.score;
+			}
 		});
 		catagoryKey.forEach((item) => {
 			keyScore += item.score;
 		});
-		let percentScore = Math.round((score / keyScore) * 100);
+		const percentScore = Math.round((score / keyScore) * 100);
 
 		return percentScore;
 	};

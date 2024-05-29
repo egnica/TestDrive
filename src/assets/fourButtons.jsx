@@ -74,14 +74,16 @@ const FourButtons = (props) => {
 						View a detailed summary of results by bank and by category in one
 						layout by downloading the Test Drive Road Map.
 					</p>
-					<div className='four-button'>
-						<img
-							style={{paddingTop: "10px"}}
-							width={"60px"}
-							height={"auto"}
-							src='./images/Download_Icon.svg'
-						/>
-					</div>
+					<a href='./roadmap/ROAD_MAP.pdf' target='_blank'>
+						<div className='four-button'>
+							<img
+								style={{paddingTop: "10px"}}
+								width={"60px"}
+								height={"auto"}
+								src='./images/Download_Icon.svg'
+							/>
+						</div>
+					</a>
 				</div>
 			</div>
 		</>

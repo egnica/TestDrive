@@ -78,7 +78,7 @@ function BankLayout() {
 									style={{padding: "15px 0 0 20px"}}
 									height={"40px"}
 									width={"40px"}
-									src='./images/winner.png'
+									src='./images/winner.svg'
 								/>
 								<p style={{padding: "11px 0 0 5px", fontSize: "14px"}}>
 									= indicates category winner
@@ -110,7 +110,7 @@ function BankLayout() {
 								>
 									{item.winner ? (
 										<div className='test1'>
-											<img className='winner-img' src='./images/winner.png' />
+											<img className='winner-img' src='./images/winner.svg' />
 											<div
 												style={{
 													display: styleChange[1] == index && styleChange[0],

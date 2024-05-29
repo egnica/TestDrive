@@ -120,7 +120,7 @@ function CategoryLayout() {
 										style={{padding: "20px 0 0 20px"}}
 										height={"40px"}
 										width={"40px"}
-										src='./images/winner.png'
+										src='./images/winner.svg'
 									/>
 									<p style={{padding: "18px 0 0 5px", fontSize: "14px"}}>
 										= indicates category winner
@@ -152,7 +152,7 @@ function CategoryLayout() {
 																<img
 																	style={{marginLeft: "40px"}}
 																	className='winner-img'
-																	src='./images/winner.png'
+																	src='./images/winner.svg'
 																/>
 																<div
 																	style={{

@@ -98,7 +98,7 @@ function CategoryLayout() {
 										<img
 											width={"10%"}
 											height={"auto"}
-											src='../../images/plus.svg'
+											src='./images/plus.svg'
 										/>
 										<img width={"25%"} height={"auto"} src={cataLogo} />
 

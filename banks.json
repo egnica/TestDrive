@@ -3,7 +3,7 @@
         {
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 288,
                     "icon": "./images/category-icons/Enrolling_and_Applying.svg",
                     "features": [
@@ -38,7 +38,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 677,
                     "icon": "./images/category-icons/Security_Management.svg",
                     "features": [
@@ -85,7 +85,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 460,
                     "icon": "./images/category-icons/Managing_Paper.svg",
                     "features": [
@@ -120,7 +120,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 131,
                     "icon": "./images/category-icons/Additional_Users.svg",
                     "features": [
@@ -139,7 +139,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 438,
                     "icon": "./images/category-icons/Cash_flow.svg",
                     "features": [
@@ -186,7 +186,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 775,
                     "icon": "./images/category-icons/Payments_Transfers.svg",
                     "features": [
@@ -245,7 +245,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 168,
                     "icon": "./images/category-icons/Receiving_Payments.svg",
                     "features": [
@@ -268,7 +268,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 358,
                     "icon": "./images/category-icons/Customer_service.svg",
                     "features": [
@@ -525,7 +525,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/AmericanExpress.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 204,
                     "features": [
                         {
@@ -566,7 +566,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 284,
                     "features": [
                         {
@@ -622,7 +622,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 206,
                     "features": [
                         {
@@ -663,7 +663,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": "-",
                     "features": [
                         {
@@ -684,7 +684,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 324,
                     "features": [
                         {
@@ -740,7 +740,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 636,
                     "features": [
                         {
@@ -811,7 +811,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": "-",
                     "features": [
                         {
@@ -837,7 +837,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 80,
                     "features": [
                         {
@@ -1130,7 +1130,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/BankofAmerica.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 222,
                     "features": [
                         {
@@ -1171,7 +1171,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 621,
                     "features": [
                         {
@@ -1227,7 +1227,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 460,
                     "features": [
                         {
@@ -1268,7 +1268,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 131,
                     "features": [
                         {
@@ -1289,7 +1289,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 417,
                     "winner": "Bank of America was awarded \"Best Practice\" for this chapter as it earned credit for 9 of the most valuable features related to cash flow.",
                     "features": [
@@ -1346,7 +1346,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 730,
                     "features": [
                         {
@@ -1417,7 +1417,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 85,
                     "features": [
                         {
@@ -1443,7 +1443,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 167,
                     "features": [
                         {
@@ -1735,7 +1735,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/CapitalOne.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 146,
                     "features": [
                         {
@@ -1776,7 +1776,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 507,
                     "features": [
                         {
@@ -1832,7 +1832,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 379,
                     "features": [
                         {
@@ -1873,7 +1873,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": "-",
                     "features": [
                         {
@@ -1894,7 +1894,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 204,
                     "features": [
                         {
@@ -1950,7 +1950,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 665,
                     "features": [
                         {
@@ -2021,7 +2021,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": "-",
                     "features": [
                         {
@@ -2047,7 +2047,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 109,
                     "features": [
                         {
@@ -2339,7 +2339,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Chase.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 255,
                     "features": [
                         {
@@ -2380,7 +2380,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 621,
                     "winner": "Chase was awarded \"Best Practice\" for this chapter because of its detailed alert settings, including mobile push options, adjustable limits of wire notifications, and the ability to receive a notification that a payment may not be completed because of limited funds.",
                     "features": [
@@ -2437,7 +2437,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 460,
                     "winner": "Chase was awarded “Best Practice” for this chapter because of the robustness of its online document center.",
                     "features": [
@@ -2479,7 +2479,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 131,
                     "winner": "Chase was awarded \"Best Practice\" for this chapter because of the customizability of additional user settings, including the ability to choose a dollar limit for each type of digital payment.",
                     "features": [
@@ -2501,7 +2501,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 228,
                     "features": [
                         {
@@ -2557,7 +2557,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 775,
                     "winner": "Chase was awarded \"Best Practice\" for this chapter as it earned credit for 12 of 13 features assessed - in particular, the ability to send real-time ACH payments.",
                     "features": [
@@ -2629,7 +2629,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 83,
                     "features": [
                         {
@@ -2655,7 +2655,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 232,
                     "features": [
                         {
@@ -2949,7 +2949,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Huntington.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 184,
                     "features": [
                         {
@@ -2990,7 +2990,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 621,
                     "features": [
                         {
@@ -3046,7 +3046,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 274,
                     "features": [
                         {
@@ -3087,7 +3087,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 45,
                     "features": [
                         {
@@ -3108,7 +3108,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 290,
                     "features": [
                         {
@@ -3164,7 +3164,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 426,
                     "features": [
                         {
@@ -3235,7 +3235,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": "-",
                     "features": [
                         {
@@ -3261,7 +3261,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 246,
                     "features": [
                         {
@@ -3553,7 +3553,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/KeyBank.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 108,
                     "features": [
                         {
@@ -3594,7 +3594,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 442,
                     "features": [
                         {
@@ -3650,7 +3650,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 379,
                     "features": [
                         {
@@ -3691,7 +3691,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 45,
                     "features": [
                         {
@@ -3712,7 +3712,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 264,
                     "features": [
                         {
@@ -3768,7 +3768,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 546,
                     "features": [
                         {
@@ -3839,7 +3839,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 85,
                     "features": [
                         {
@@ -3865,7 +3865,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 278,
                     "features": [
                         {
@@ -4157,7 +4157,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/NorthOne.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 151,
                     "features": [
                         {
@@ -4198,7 +4198,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 135,
                     "features": [
                         {
@@ -4254,7 +4254,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 49,
                     "features": [
                         {
@@ -4295,7 +4295,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": "-",
                     "features": [
                         {
@@ -4316,7 +4316,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 271,
                     "features": [
                         {
@@ -4372,7 +4372,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 314,
                     "features": [
                         {
@@ -4443,7 +4443,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": "-",
                     "features": [
                         {
@@ -4469,7 +4469,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 166,
                     "features": [
                         {
@@ -4761,7 +4761,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/PNC.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 255,
                     "features": [
                         {
@@ -4802,7 +4802,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 441,
                     "features": [
                         {
@@ -4858,7 +4858,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 379,
                     "features": [
                         {
@@ -4899,7 +4899,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 86,
                     "features": [
                         {
@@ -4920,7 +4920,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 357,
                     "features": [
                         {
@@ -4976,7 +4976,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 665,
                     "features": [
                         {
@@ -5047,7 +5047,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 85,
                     "features": [
                         {
@@ -5073,7 +5073,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 242,
                     "features": [
                         {
@@ -5365,7 +5365,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Regions.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 185,
                     "features": [
                         {
@@ -5406,7 +5406,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 442,
                     "features": [
                         {
@@ -5462,7 +5462,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 393,
                     "features": [
                         {
@@ -5503,7 +5503,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 86,
                     "features": [
                         {
@@ -5524,7 +5524,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 395,
                     "features": [
                         {
@@ -5580,7 +5580,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 730,
                     "features": [
                         {
@@ -5651,7 +5651,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 37,
                     "features": [
                         {
@@ -5677,7 +5677,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 181,
                     "features": [
                         {
@@ -5969,7 +5969,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Square.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 204,
                     "features": [
                         {
@@ -6010,7 +6010,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 360,
                     "features": [
                         {
@@ -6066,7 +6066,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 150,
                     "features": [
                         {
@@ -6107,7 +6107,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 45,
                     "features": [
                         {
@@ -6128,7 +6128,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 161,
                     "features": [
                         {
@@ -6184,7 +6184,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 597,
                     "features": [
                         {
@@ -6255,7 +6255,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 131,
                     "features": [
                         {
@@ -6281,7 +6281,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 181,
                     "features": [
                         {
@@ -6573,7 +6573,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/TDBank.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 222,
                     "features": [
                         {
@@ -6614,7 +6614,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 360,
                     "features": [
                         {
@@ -6670,7 +6670,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 395,
                     "features": [
                         {
@@ -6711,7 +6711,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 131,
                     "features": [
                         {
@@ -6732,7 +6732,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 133,
                     "features": [
                         {
@@ -6788,7 +6788,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 506,
                     "features": [
                         {
@@ -6859,7 +6859,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 168,
                     "features": [
                         {
@@ -6885,7 +6885,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 170,
                     "features": [
                         {
@@ -7178,7 +7178,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/Truist.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 222,
                     "features": [
                         {
@@ -7219,7 +7219,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 576,
                     "features": [
                         {
@@ -7275,7 +7275,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 379,
                     "features": [
                         {
@@ -7316,7 +7316,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 86,
                     "features": [
                         {
@@ -7337,7 +7337,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 398,
                     "features": [
                         {
@@ -7393,7 +7393,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 674,
                     "features": [
                         {
@@ -7464,7 +7464,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 37,
                     "winner": "Truist was awarded \"Best Practice\" for this chapter because of the robust cash flow management features offered via online banking, as well as the ease of access to these features.",
                     "features": [
@@ -7491,7 +7491,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 332,
                     "features": [
                         {
@@ -7786,7 +7786,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/USBank.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 288,
                     "features": [
                         {
@@ -7827,7 +7827,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 576,
                     "features": [
                         {
@@ -7883,7 +7883,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 328,
                     "features": [
                         {
@@ -7924,7 +7924,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 86,
                     "features": [
                         {
@@ -7945,7 +7945,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 390,
                     "features": [
                         {
@@ -8001,7 +8001,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 700,
                     "features": [
                         {
@@ -8072,7 +8072,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 37,
                     "features": [
                         {
@@ -8098,7 +8098,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 358,
                     "winner": "U.S. Bank was awarded \"Best Practice\" for this chapter as it earned credit for all seven features assessed, including the ability to screen-share with the bank via co-browse.",
                     "features": [
@@ -8392,7 +8392,7 @@
             "asset_zip": "https://www.barlowresearch.com/testdrive_assets_2024/zips/WellsFargo.zip",
             "categorys": [
                 {
-                    "name": "Enrolling/Applying",
+                    "name": "Desktop: Enrolling/Applying",
                     "score": 288,
                     "winner": "Wells Fargo was awarded “Best Practice” for this chapter because of its detailed Small Business Product Selector",
                     "features": [
@@ -8434,7 +8434,7 @@
                     ]
                 },
                 {
-                    "name": "Security and Profile Management",
+                    "name": "Desktop: Security and Profile Management",
                     "score": 576,
                     "features": [
                         {
@@ -8490,7 +8490,7 @@
                     ]
                 },
                 {
-                    "name": "Managing Paper",
+                    "name": "Desktop: Managing Paper",
                     "score": 379,
                     "features": [
                         {
@@ -8531,7 +8531,7 @@
                     ]
                 },
                 {
-                    "name": "Additional Users",
+                    "name": "Desktop: Additional Users",
                     "score": 45,
                     "features": [
                         {
@@ -8552,7 +8552,7 @@
                     ]
                 },
                 {
-                    "name": "Cash Flow Management",
+                    "name": "Desktop: Cash Flow Management",
                     "score": 312,
                     "features": [
                         {
@@ -8608,7 +8608,7 @@
                     ]
                 },
                 {
-                    "name": "Making Payments and Transfers",
+                    "name": "Desktop: Making Payments and Transfers",
                     "score": 700,
                     "features": [
                         {
@@ -8679,7 +8679,7 @@
                     ]
                 },
                 {
-                    "name": "Receiving Payments",
+                    "name": "Desktop: Receiving Payments",
                     "score": 37,
                     "features": [
                         {
@@ -8705,7 +8705,7 @@
                     ]
                 },
                 {
-                    "name": "Customer Service",
+                    "name": "Desktop: Customer Service",
                     "score": 141,
                     "features": [
                         {

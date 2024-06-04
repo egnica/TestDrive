@@ -86,9 +86,6 @@ const FourButtons = (props) => {
 					</a>
 				</div>
 			</div>
-			<p style={{textAlign: "center"}}>
-				This data is representative of platforms as of March 2024.
-			</p>
 		</>
 	);
 };

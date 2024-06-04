@@ -91,17 +91,17 @@ function App() {
 								of the features and functionalities that were tested, based on
 								the importance scores indicated by the small business digital
 								banking users in our survey. Finally, a &quot;Best Practice
-								Bank&quot; was named for each chapter included in the study. The
-								data and screen captures shown were most recently updated in the
-								second quarter of 2023. This report has the power to give banks
-								a &quot;Road Map&quot; to Digital Business Banking success.
+								Bank&quot; was named for each chapter included in the study.
+								This data is representative of platforms as of March 2024. This
+								report has the power to give banks a &quot;Road Map&quot; to
+								Digital Business Banking success.
 							</span>
 							<p
 								style={{animation: "fadeIn 2.5s"}}
 								className='read-more'
 								onClick={() => setReadMore(!readMore)}
 							>
-								READ LESS
+								SHOW LESS
 							</p>
 						</>
 					)}

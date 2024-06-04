@@ -838,7 +838,7 @@
                 },
                 {
                     "name": "Desktop: Customer Service",
-                    "score": 80,
+                    "score": 152,
                     "features": [
                         {
                             "name": "Telephone support for service-related inquiries",
@@ -852,7 +852,7 @@
                         },
                         {
                             "name": "Access to customer support via live chat that connects you to a human representative",
-                            "points": "-",
+                            "points": 72,
                             "video": ""
                         },
                         {
@@ -1269,7 +1269,7 @@
                 },
                 {
                     "name": "Desktop: Additional Users",
-                    "score": 131,
+                    "score": 45,
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
@@ -4470,11 +4470,11 @@
                 },
                 {
                     "name": "Desktop: Customer Service",
-                    "score": 166,
+                    "score": 246,
                     "features": [
                         {
                             "name": "Telephone support for service-related inquiries",
-                            "points": "-",
+                            "points": 80,
                             "video": ""
                         },
                         {
@@ -6108,11 +6108,11 @@
                 },
                 {
                     "name": "Desktop: Additional Users",
-                    "score": 45,
+                    "score": "-",
                     "features": [
                         {
                             "name": "Ability to limit the number of accounts authorized users may access",
-                            "points": 45,
+                            "points": "-",
                             "video": ""
                         },
                         {
@@ -6861,6 +6861,7 @@
                 {
                     "name": "Desktop: Receiving Payments",
                     "score": 168,
+                    "winner": "TD was awarded \"Best Practice\" for this chapter because of the robust cash flow management features offered via online banking, as well as the ease of access to these features.",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
@@ -7338,7 +7339,7 @@
                 },
                 {
                     "name": "Desktop: Cash Flow Management",
-                    "score": 398,
+                    "score": 395,
                     "features": [
                         {
                             "name": "Ability to view at least 90 days of account history in detail",
@@ -7466,7 +7467,6 @@
                 {
                     "name": "Desktop: Receiving Payments",
                     "score": 37,
-                    "winner": "Truist was awarded \"Best Practice\" for this chapter because of the robust cash flow management features offered via online banking, as well as the ease of access to these features.",
                     "features": [
                         {
                             "name": "Ability to accept or request money via Zelle® (using an email address, mobile number or QR code)",
@@ -8794,7 +8794,7 @@
                 },
                 {
                     "name": "Mobile: Security and Profile Management",
-                    "score": 160,
+                    "score": 260,
                     "features": [
                         {
                             "name": "Ability to log into mobile banking using fingerprint or facial/voice recognition, etc.",

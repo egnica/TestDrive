@@ -11,6 +11,17 @@ a {
 	z-index: 0;
 }
 /* HEADER SECTION - TOP POSTS  */
+.logo-text {
+	display: flex;
+}
+.logo-text p {
+	color: white;
+	padding: 10px 0 0 10px;
+}
+.logo-text h1 {
+	margin: 0;
+	padding: 0px 30px;
+}
 
 .main-pic {
 	width: 100%;
@@ -20,8 +31,13 @@ a {
 	background-size: cover;
 	animation: fadeIn 3.5s;
 }
+.main-pic img {
+	padding: 10px 0 0 10px;
+	width: 60px;
+	height: 60px;
+}
 .h1-td {
-	padding: 30px 0 0 30px;
+	padding: 0 0 0 30px;
 	display: flex;
 }
 .h1-td img {
@@ -37,7 +53,7 @@ a {
 .section2 {
 	background-color: #00000066;
 	border-radius: 10px;
-	padding: 30px;
+	padding: 10px 20px 10px 30px;
 	margin: 0 70px;
 	color: aliceblue;
 }
@@ -94,11 +110,20 @@ a {
 .blog-button:hover {
 	outline-color: #7a7c90;
 }
+.three-btn-contain {
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	right: 10px;
+}
 
 .button-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.button-container button {
+	border-radius: 30px;
 }
 
 /* four button nav  */
@@ -136,7 +161,7 @@ a {
 	display: grid;
 	place-content: center;
 	padding: 5px;
-	border: 2px solid rgba(43, 43, 43, 0.929);
+	border: 2px solid rgba(43, 43, 43, 0.363);
 	border-radius: 10px;
 	margin: 5px;
 	color: #5f5f5f;
@@ -261,14 +286,16 @@ a {
 	margin: auto;
 }
 .catagory-score-contain {
-	display: flex;
-	height: 40px;
+	display: grid;
+	grid-template-columns: 8fr 1fr 1fr;
 	border: 1px gray solid;
-	padding: 0 20px;
+	padding: 0 15px 0 20px;
 	cursor: pointer;
 	align-items: center;
-	justify-content: space-between;
-	flex: auto;
+}
+
+.earned {
+	padding-left: 30%;
 }
 
 .points {
@@ -282,9 +309,12 @@ a {
 .feature {
 	padding-left: 40px;
 	display: grid;
-	grid-template-columns: 0.5fr 2fr 0.1fr 0.5fr;
+	grid-template-columns: 1fr 7fr 1fr 1fr;
 }
 .feature:nth-child(2n + 0) {
+	background: #e0f4ff;
+}
+.child-color:nth-child(2n + 0) {
 	background: #e0f4ff;
 }
 .feat-name {
@@ -348,7 +378,7 @@ a {
 	border: 2px solid #0a1178;
 	border-radius: 10%;
 	width: 250px;
-	right: 40px;
+	right: 200px;
 	position: relative;
 	color: black;
 }
@@ -366,6 +396,10 @@ a {
 .winner-img:hover + .best-feature-text {
 	display: block;
 	animation: fadeIn 0.5s;
+}
+.read-more {
+	cursor: pointer;
+	color: #004770;
 }
 
 /* Footer CONTAINER  */

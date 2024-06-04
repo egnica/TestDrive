@@ -10,6 +10,7 @@ import {useEffect} from "react";
 
 function App() {
 	const [compareView, setCopmareView] = useState("");
+	const [readMore, setReadMore] = useState(false);
 
 	const compareHandler = (data) => {
 		setCopmareView(data);
@@ -40,9 +41,8 @@ function App() {
 					<strong>QUESTIONS? </strong>
 					<br /> Want an in-depth, personalized look at a specific digital
 					banking feature, or a specific bank&apos;s digital platform? Barlow
-					offers this level of access via Live Test Drive sessions, available
-					exclusively to Digital Business Banking program. <br /> <br /> Reach
-					out to Julianna Kolb at{" "}
+					offers Live Test Drive sessions, available exclusively to Digital
+					Business Banking program members. <br /> <br /> Email Julianna Kolb at{" "}
 					<a href='mailto:jkolb@barlowresearch.com'>
 						jkolb@barlowresearch.com
 					</a>{" "}
@@ -69,6 +69,42 @@ function App() {
 					at each institution. With these relationships established, we then
 					access our accounts through each bank&apos;s small business digital
 					banking platform - and we bring our clients along for the ride.
+					{!readMore ? (
+						<p className='read-more' onClick={() => setReadMore(!readMore)}>
+							READ MORE
+						</p>
+					) : (
+						<>
+							<span style={{animation: "fadeIn 2.5s"}}>
+								<br />
+								<br />
+								The analysis of the platforms is divided into eight desktop and
+								eight mobile categories, each containing an array of related
+								features. These online and mobile banking features were rated
+								for importance via survey by small business digital banking
+								users and tested online by Barlow Research analysts. First-hand
+								UX capture videos are available within the Test Drive platform
+								as well.
+								<br />
+								<br />
+								Barlow Research has created a weighted scoring system for each
+								of the features and functionalities that were tested, based on
+								the importance scores indicated by the small business digital
+								banking users in our survey. Finally, a &quot;Best Practice
+								Bank&quot; was named for each chapter included in the study. The
+								data and screen captures shown were most recently updated in the
+								second quarter of 2023. This report has the power to give banks
+								a &quot;Road Map&quot; to Digital Business Banking success.
+							</span>
+							<p
+								style={{animation: "fadeIn 2.5s"}}
+								className='read-more'
+								onClick={() => setReadMore(!readMore)}
+							>
+								READ LESS
+							</p>
+						</>
+					)}
 				</p>
 			</div>
 			<Footer />

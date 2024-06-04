@@ -71,8 +71,8 @@ const FourButtons = (props) => {
 				<div className='four-button-border'>
 					<h2>Download Road Map</h2>
 					<p>
-						View a detailed summary of results by bank and by category in one
-						layout by downloading the Test Drive Road Map.
+						View a detailed summary of all Test Drive results by bank and
+						category.
 					</p>
 					<a href='./roadmap/ROAD_MAP.pdf' target='_blank'>
 						<div className='four-button'>
@@ -86,6 +86,9 @@ const FourButtons = (props) => {
 					</a>
 				</div>
 			</div>
+			<p style={{textAlign: "center"}}>
+				This data is representative of platforms as of March 2024.
+			</p>
 		</>
 	);
 };

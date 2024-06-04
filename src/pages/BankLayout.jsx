@@ -30,13 +30,26 @@ function BankLayout() {
 		window.open(file, "_blank");
 	};
 
+	const featureCount = (item) => {
+		let total = 0;
+		let earned = 0;
+		item.features.forEach((element) => {
+			total = total + 1;
+
+			if (element.points != "-") {
+				earned = earned + 1;
+			}
+		});
+		return earned + "/" + total;
+	};
+
 	return (
 		<>
 			<div id='setScreen'></div>
 			<h1 style={{textAlign: "center"}}>Banks</h1>
 			<p style={{textAlign: "center"}}>
 				Select one of the logos below to see how that institution scored this
-				year
+				year.
 			</p>
 
 			<div id='bank-nav' className='bank-contain'>
@@ -97,7 +110,13 @@ function BankLayout() {
 					{bank !== "" && (
 						<div className='catagory-score-contain title'>
 							<p>Categories</p>
-							<p className='points'>Score</p>
+							<p style={{textAlign: "center"}}>Features Earned</p>
+							<p
+								style={{textAlign: "center", paddingLeft: "20px"}}
+								className='points'
+							>
+								Points Earned
+							</p>
 						</div>
 					)}
 
@@ -131,7 +150,7 @@ function BankLayout() {
 									className='catagory-score-contain'
 								>
 									<p className='cata'>{item.name} </p>
-
+									<p className='earned'>{featureCount(item)}</p>
 									<p className='points'>{item.score}</p>
 								</div>
 

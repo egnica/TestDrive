@@ -8,11 +8,14 @@ const TopThree = (props) => {
 				className='main-pic'
 				style={{backgroundImage: `url(${props.object[props.num].image})`}}
 			>
-				<div className='h1-td'>
-					<h1>DIGITAL BUSINESS BANKING TEST DRIVE</h1>
+				<div className='logo-text'>
 					<a href='https://www.barlowresearch.com/mybarlow/index.php'>
-						<img src='./images/White-Logo.png' />
+						<img src='./images/White-Logo.png' />{" "}
 					</a>
+					<p>
+						BARLOW RESEARCH ASSOCIATES, INC.
+						<h1>DIGITAL BUSINESS BANKING TEST DRIVE</h1>
+					</p>
 				</div>
 
 				<div className='section'>

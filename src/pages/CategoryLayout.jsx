@@ -68,6 +68,19 @@ function CategoryLayout() {
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [catagoryName]);
 
+	const featureCount = (item) => {
+		let total = 0;
+		let earned = 0;
+		item.features.forEach((element) => {
+			total = total + 1;
+
+			if (element.points != "-") {
+				earned = earned + 1;
+			}
+		});
+		return earned + "/" + total;
+	};
+
 	return (
 		<>
 			<div id='setScreen2'></div>
@@ -132,7 +145,13 @@ function CategoryLayout() {
 							{catagoryName != "" && (
 								<div className='catagory-score-contain title table-width'>
 									<p>Banks</p>
-									<p className='points'>Score</p>
+									<p style={{textAlign: "center"}}>Features Earned</p>
+									<p
+										style={{textAlign: "center", paddingLeft: "20px"}}
+										className='points'
+									>
+										Points Earned
+									</p>
 								</div>
 							)}
 							{catagoryName != "" &&
@@ -185,6 +204,9 @@ function CategoryLayout() {
 													return (
 														catagoryName == test.name && (
 															<>
+																<p style={{textAlign: "center"}}>
+																	{featureCount(test)}
+																</p>
 																<p key={index} className='points'>
 																	{test.score}
 																</p>
@@ -196,34 +218,33 @@ function CategoryLayout() {
 
 											{features.map((feat, numInd) => {
 												return (
-													<div key={numInd}>
+													<div className=' feature table-width' key={numInd}>
 														{cateIndex == index && (
 															<>
-																<div className='feature table-width'>
-																	{feat.video != "" ? (
-																		<button
-																			onClick={() => setVideoUrl(feat.video)}
-																			className='video-button'
-																		>
-																			Watch Video
-																		</button>
-																	) : (
-																		<div className='filler'></div>
-																	)}
+																{feat.video != "" ? (
+																	<button
+																		onClick={() => setVideoUrl(feat.video)}
+																		className='video-button'
+																	>
+																		Watch Video
+																	</button>
+																) : (
+																	<div className='filler'></div>
+																)}
 
-																	<p className='feat-name'>{feat.name}</p>
+																<p className='feat-name'>{feat.name}</p>
 
-																	{featuresKey[numInd].points == feat.points ? (
-																		<img
-																			className='check'
-																			src='./images/check.png'
-																		/>
-																	) : (
-																		<div className='no-check'></div>
-																	)}
+																{featuresKey[numInd].points == feat.points ? (
+																	<img
+																		className='check'
+																		src='./images/check.png'
+																	/>
+																) : (
+																	<div className='no-check'></div>
+																)}
 
-																	<p className='feat-score'>{feat.points}</p>
-																</div>
+																<p className='feat-score'>{feat.points}</p>
+
 																{videoUrl != "" && feat.video == videoUrl && (
 																	<>
 																		<div className='video-contain'>

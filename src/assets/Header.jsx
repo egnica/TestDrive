@@ -42,33 +42,34 @@ const Header = () => {
 	}, [clickTrue]);
 	return (
 		<>
-			<div className='button-container'>
-				<button
-					style={{backgroundColor: selectedColor1}}
-					onClick={() => {
-						setButtonSelected(1);
-						setClickTrue(true);
-					}}
-					className='blog-button'
-				></button>
-				<button
-					style={{backgroundColor: selectedColor2}}
-					onClick={() => {
-						setButtonSelected(2);
-						setClickTrue(true);
-					}}
-					className='blog-button'
-				></button>
-				<button
-					style={{backgroundColor: selectedColor3}}
-					onClick={() => {
-						setButtonSelected(3);
-						setClickTrue(true);
-					}}
-					className='blog-button'
-				></button>
+			<div className='three-btn-contain'>
+				<div className='button-container'>
+					<button
+						style={{backgroundColor: selectedColor1}}
+						onClick={() => {
+							setButtonSelected(1);
+							setClickTrue(true);
+						}}
+						className='blog-button'
+					></button>
+					<button
+						style={{backgroundColor: selectedColor2}}
+						onClick={() => {
+							setButtonSelected(2);
+							setClickTrue(true);
+						}}
+						className='blog-button'
+					></button>
+					<button
+						style={{backgroundColor: selectedColor3}}
+						onClick={() => {
+							setButtonSelected(3);
+							setClickTrue(true);
+						}}
+						className='blog-button'
+					></button>
+				</div>
 			</div>
-
 			<div className='featured-blog'>
 				{buttonSelected == 1 ? (
 					<TopThree object={topItemsJson.new} num={0} />

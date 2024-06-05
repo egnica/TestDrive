@@ -2,6 +2,7 @@ import {useState} from "react";
 import "../App.css";
 import "./compare.css";
 import banksData from "../../banks.json";
+import {height} from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 export const CompareLayout = () => {
 	const [bankObject] = useState(banksData.bank_layout);
@@ -115,7 +116,9 @@ export const CompareLayout = () => {
 									<div className='bank-col' key={index}>
 										<h3>{item.bank_name}</h3>
 
-										<p>{percentOfPoints(item.categorys)}%</p>
+										<p style={{margin: "0"}}>
+											{percentOfPoints(item.categorys)}%
+										</p>
 										{item.categorys.map((catag, ind) => (
 											<>
 												<p style={scoreComp(catag.score, ind)} key={ind}>

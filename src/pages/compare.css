@@ -87,6 +87,7 @@ form input[type="checkbox"] {
 
 .category-col p {
 	border-bottom: solid 1px lightgrey;
+	height: 30px;
 }
 /* .category-col p:hover {
 	background-color: cadetblue;
@@ -101,4 +102,7 @@ form input[type="checkbox"] {
 	border-bottom: solid 1px lightgrey;
 
 	white-space: nowrap;
+}
+.bank-col p {
+	height: 30px;
 }

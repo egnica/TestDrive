@@ -24,7 +24,7 @@ a {
 }
 
 .main-pic {
-	width: 100%;
+	min-width: 755px;
 	height: 650px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -133,7 +133,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	height: 250px;
-	min-width: 1050px;
+	min-width: 600px;
 }
 .four-button-border {
 	display: grid;

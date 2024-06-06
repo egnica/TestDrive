@@ -5,8 +5,11 @@ const TopThree = (props) => {
 	return (
 		<>
 			<div
+				rel='preload'
 				className='main-pic'
-				style={{backgroundImage: `url(${props.object[props.num].image})`}}
+				style={{
+					backgroundImage: `url(${props.object[props.num].image})`,
+				}}
 			>
 				<div className='logo-text'>
 					<a href='https://www.barlowresearch.com/mybarlow/index.php'>

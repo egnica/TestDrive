@@ -2,7 +2,6 @@ import {useState} from "react";
 import "../App.css";
 import "./compare.css";
 import banksData from "../../banks.json";
-import {height} from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 export const CompareLayout = () => {
 	const [bankObject] = useState(banksData.bank_layout);

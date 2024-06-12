@@ -18,10 +18,10 @@
         },
         {
             "id": "1",
-            "title": "TD Bank Tap-to-Pay",
-            "description": "This spring came with a big update to TD Bank’s mobile app. TD Bank users can now accept credit card payments in-person via mobile through new Tap-to-Pay functionality. Chase and TD are currently the only Test Drive institutions offering this feature.",
+            "title": "New TD Bank Business Dashboard",
+            "description": "TD Bank joined the cash flow game this spring with their new Business Dashboard. The dashboard operates off data taken from pre-existing accounting software, creating cash flow tracking, forecasting, benchmarking information, and insights. Explore the new tool here..",
             "link_title": "Read Here!",
-            "link": "https: //www.barlowresearch.com/mybarlow/viewanalystsjournal.php?item=14171",
+            "link": "./banner/1.TD/TD_Business_Dashboard.mp4",
             "image": "./banner/1.TD/tap-pay.jpg"
         }
     ]

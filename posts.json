@@ -2,11 +2,11 @@
     "new": [
         {
             "id": "3",
-            "title": "Truist Insights",
-            "description": "With Truist Insights, business customers can see snapshots of their cashflow, like spending trends, important events and flagged unusual activity, on both desktop and mobile platforms.",
-            "link_title": "Click Here!",
-            "link": "./banner/3.Truist/Mobile_insights.mp4",
-            "image": "./banner/3.Truist/Mobile_insights.jpg"
+            "title": "Welcome to the New Test Drive Layout",
+            "description": "We are excited to share this updated tool with you. Although the format is different, the methodology remains the same as previous years. Click here for a tour.",
+            "link_title": "Watch Here!",
+            "link": "./banner/3.Truist/testdrive_demo.mp4",
+            "image": "./banner/3.Truist/Orientation-Video-Image.png"
         },
         {
             "id": "2",
@@ -20,7 +20,7 @@
             "id": "1",
             "title": "New TD Bank Business Dashboard",
             "description": "TD Bank joined the cash flow game this spring with their new Business Dashboard. The dashboard operates off data taken from pre-existing accounting software, creating cash flow tracking, forecasting, benchmarking information, and insights. Explore the new tool here..",
-            "link_title": "Read Here!",
+            "link_title": "Watch Here!",
             "link": "./banner/1.TD/TD_Business_Dashboard.mp4",
             "image": "./banner/1.TD/tap-pay.jpg"
         }

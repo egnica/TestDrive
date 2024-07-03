@@ -7339,7 +7339,7 @@
                 },
                 {
                     "name": "Desktop: Cash Flow Management",
-                    "score": 395,
+                    "score": 448,
                     "features": [
                         {
                             "name": "Ability to view at least 90 days of account history in detail",
@@ -7383,7 +7383,7 @@
                         },
                         {
                             "name": "Ability to link third-party applications into your company's online banking dashboard (i.e., QuickBooks or ADP)",
-                            "points": "-",
+                            "points": "40",
                             "video": "http://www.barlowresearch.com/testdrive_assets_2024/videos/5_Cash_Flow/tru/CH5_link_thirdparty_apps.mp4"
                         },
                         {
